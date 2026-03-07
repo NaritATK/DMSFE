@@ -1,0 +1,1451 @@
+{
+  "navigation": {
+    "dashboards": "Dashboards",
+    "crm": "CRM",
+    "analytics": "Analytics",
+    "eCommerce": "eCommerce",
+    "academy": "Academy",
+    "logistics": "Logistics",
+    "frontPages": "Front Pages",
+    "landing": "Landing",
+    "pricing": "Pricing",
+    "payment": "Payment",
+    "checkout": "Checkout",
+    "helpCenter": "Help Center",
+    "appsPages": "Apps & Pages",
+    "apps": "Apps",
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "list": "List",
+    "add": "Add",
+    "category": "Category",
+    "orders": "Orders",
+    "details": "Details",
+    "customers": "Customers",
+    "manageReviews": "Manage Reviews",
+    "referrals": "Referrals",
+    "settings": "Settings",
+    "myCourses": "My Courses",
+    "courseDetails": "Course Details",
+    "fleet": "Fleet",
+    "email": "Email",
+    "chat": "Chat",
+    "calendar": "Calendar",
+    "kanban": "Kanban",
+    "invoice": "Invoice",
+    "preview": "Preview",
+    "edit": "Edit",
+    "user": "User",
+    "view": "View",
+    "rolesPermissions": "Roles & Permissions",
+    "roles": "Roles",
+    "permissions": "Permissions",
+    "pages": "Pages",
+    "userProfile": "User Profile",
+    "accountSettings": "Account Settings",
+    "faq": "FAQ",
+    "miscellaneous": "Miscellaneous",
+    "comingSoon": "Coming Soon",
+    "underMaintenance": "Under Maintenance",
+    "pageNotFound404": "Page Not Found - 404",
+    "notAuthorized401": "Not Authorized - 401",
+    "authPages": "Auth Pages",
+    "login": "Login",
+    "loginV1": "Login v1",
+    "loginV2": "Login v2",
+    "register": "Register",
+    "registerV1": "Register v1",
+    "registerV2": "Register v2",
+    "registerMultiSteps": "Register Multi-Steps",
+    "verifyEmail": "Verify Email",
+    "verifyEmailV1": "Verify Email v1",
+    "verifyEmailV2": "Verify Email v2",
+    "forgotPassword": "Forgot Password",
+    "forgotPasswordV1": "Forgot Password v1",
+    "forgotPasswordV2": "Forgot Password v2",
+    "resetPassword": "Reset Password",
+    "resetPasswordV1": "Reset Password v1",
+    "resetPasswordV2": "Reset Password v2",
+    "twoSteps": "Two Steps",
+    "twoStepsV1": "Two Steps v1",
+    "twoStepsV2": "Two Steps v2",
+    "wizardExamples": "Wizard Examples",
+    "propertyListing": "Property Listing",
+    "createDeal": "Create Deal",
+    "dialogExamples": "Dialog Examples",
+    "widgetExamples": "Widget Examples",
+    "basic": "Basic",
+    "advanced": "Advanced",
+    "statistics": "Statistics",
+    "actions": "Actions",
+    "formsAndTables": "Forms & Tables",
+    "formLayouts": "Form Layouts",
+    "formValidation": "Form Validation",
+    "formWizard": "Form Wizard",
+    "reactTable": "React Table",
+    "formELements": "Form Elements",
+    "muiTables": "MUI Tables",
+    "chartsMisc": "Charts & Misc",
+    "charts": "Charts",
+    "recharts": "Recharts",
+    "apex": "Apex",
+    "foundation": "Foundation",
+    "components": "Components",
+    "menuExamples": "Menu Examples",
+    "raiseSupport": "Raise Support",
+    "documentation": "Documentation",
+    "others": "Others",
+    "itemWithBadge": "Item with Badge",
+    "externalLink": "External Link",
+    "menuLevels": "Menu Levels",
+    "menuLevel2": "Menu Level 2",
+    "menuLevel3": "Menu Level 3",
+    "disabledMenu": "Disabled Menu",
+    "academicYears": "Academic Years"
+  },
+  "common": {
+    "search": "Search"
+  },
+  "dms": {
+    "common": {
+      "actions": "Actions",
+      "academicYear": "Academic Year",
+      "department": "Department",
+      "description": "Description",
+      "file": "File",
+      "close": "Close",
+      "loading": "Loading...",
+      "preview": "Preview",
+      "download": "Download",
+      "viewDetails": "View details",
+      "remove": "Remove",
+      "uploadFailed": "Upload failed",
+      "email": "Email",
+      "enterEmail": "Enter your email",
+      "password": "Password",
+      "or": "or",
+      "backToHome": "Back To Home",
+      "save": "Save",
+      "cancel": "Cancel",
+      "edit": "Edit",
+      "delete": "Delete",
+      "status": "Status",
+      "user": "User",
+      "all": "All",
+      "refresh": "Refresh",
+      "name": "Name",
+      "fileSizeUnits": {
+        "bytes": "Bytes",
+        "kb": "KB",
+        "mb": "MB",
+        "gb": "GB"
+      }
+    },
+    "upload": {
+      "title": "Upload Documents",
+      "subtitle": "Upload multiple documents with metadata",
+      "selectFiles": "Select Files",
+      "documentInfo": "Document Information",
+      "upload": "Upload",
+      "uploading": "Uploading...",
+      "retryFailed": "Retry Failed",
+      "clearFailed": "Clear Failed",
+      "summary": "Upload completed: {success}/{total} successful{failed}",
+      "errors": {
+        "selectAcademicYearDepartment": "Please select Academic Year and Department before uploading."
+      },
+      "dropHere": "Drop files here",
+      "dragDropHere": "Drag & drop files here",
+      "orClickBrowse": "or click to browse files",
+      "browseFiles": "Browse Files",
+      "maximumFiles": "Maximum {maxFiles} files",
+      "selectedFiles": "Selected Files",
+      "maxFilesError": "Maximum {maxFiles} files allowed",
+      "uploader": "Document Uploader",
+      "selectAcademicYear": "Select academic year",
+      "selectDepartment": "Select department unit",
+      "descriptionPlaceholder": "Add a description for these documents...",
+      "sameMetadataInfo": "All selected files will use the same metadata.",
+      "dropzone": {
+        "unknownFile": "Unknown file",
+        "rejected": "Rejected"
+      }
+    },
+    "history": {
+      "title": "Document History",
+      "subtitle": "View and download all uploaded documents",
+      "filters": "Filters",
+      "documents": "Documents",
+      "documentsFound": "documents found",
+      "loadFailed": "Failed to load documents. Please try again.",
+      "searchPlaceholder": "Search by name, department, or description...",
+      "dateFrom": "Date From",
+      "dateTo": "Date To",
+      "sortBy": "Sort By",
+      "sortOrder": "Sort Order",
+      "lastModified": "Last Modified",
+      "uploadDate": "Upload Date",
+      "fileName": "File Name",
+      "fileSize": "File Size",
+      "descending": "Descending",
+      "ascending": "Ascending",
+      "noDocuments": "No documents found",
+      "adjustFilters": "Try adjusting your filters or search criteria",
+      "document": "Document",
+      "uploaded": "Uploaded",
+      "documentDetails": "Document Details",
+      "information": "Information",
+      "timeline": "Timeline",
+      "confirmDelete": "Are you sure you want to delete this document? It will be hidden from the system but kept in storage.",
+      "departmentOptions": {
+        "it": "IT Department",
+        "hr": "HR Department",
+        "finance": "Finance Department",
+        "operations": "Operations Department",
+        "marketing": "Marketing Department",
+        "sales": "Sales Department",
+        "legal": "Legal Department",
+        "rd": "R&D Department"
+      }
+    },
+    "auth": {
+      "accessDenied": "Access Denied",
+      "noPermissionPage": "You do not have permission to access this page.",
+      "requiredRole": "Required role",
+      "yourRole": "Your role",
+      "goToDashboard": "Go to Dashboard",
+      "permissionRequired": "Permission Required",
+      "noPermissionFeature": "You do not have required permission to access this feature.",
+      "contactAdmin": "Please contact your administrator."
+    },
+    "login": {
+      "title": "AI DOES 📄",
+      "subtitle": "Sign in with your Microsoft 365 account",
+      "signingIn": "Signing in...",
+      "signInButton": "Sign in with Microsoft 365",
+      "secureAuthentication": "Secure Authentication",
+      "authRequired": "Authentication Required",
+      "authDescription": "This system uses Microsoft 365 for secure authentication. You will be redirected to Microsoft login page to sign in with your organizational account.",
+      "errors": {
+        "signInMicrosoft": "Failed to sign in with Microsoft 365. Please try again.",
+        "unexpected": "An unexpected error occurred. Please try again."
+      },
+      "oauthErrors": {
+        "default": "An error occurred during sign in.",
+        "session_expired": "Your session has expired. Please sign in again.",
+        "NON_STAFF_USER": "You do not have permission to access this system.",
+        "NO_ACTIVE_ROLE": "You do not have permission to access this system."
+      },
+      "permissionDeniedTitle": "You do not have permission to access this system",
+      "permissionDeniedDescription": "Please contact the Division of Educational Services, Information Systems Development Unit."
+    },
+    "register": {
+      "title": "Adventure starts here 🚀",
+      "subtitle": "Make your app management easy and fun!",
+      "username": "Username",
+      "enterUsername": "Enter your username",
+      "agreeTo": "I agree to ",
+      "privacyTerms": "privacy policy & terms",
+      "signUp": "Sign Up",
+      "alreadyHaveAccount": "Already have an account?",
+      "signInInstead": "Sign in instead"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password 🔒",
+      "subtitle": "Enter your email and we'll send you instructions to reset your password",
+      "sendResetLink": "Send Reset Link",
+      "backToLogin": "Back to login"
+    },
+    "notFound": {
+      "title": "Page Not Found ⚠️",
+      "description": "We couldn't find the page you are looking for."
+    },
+    "notAuthorized": {
+      "title": "You are not authorized! 🔐",
+      "description": "You do not have permission to access this page. Go Home!"
+    },
+    "comingSoon": {
+      "title": "We are launching soon 🚀",
+      "description": "Our website is opening soon. Please register to get notified when it's ready!",
+      "enterEmailOrUsername": "Enter your email or username",
+      "notify": "Notify"
+    },
+    "underMaintenance": {
+      "title": "Under Maintenance! 🚧",
+      "description": "Sorry for the inconvenience but we're performing some maintenance at the moment"
+    },
+    "dashboard": {
+      "vsLastMonth": "vs last month",
+      "totalDocuments": "Total Documents",
+      "storageUsed": "Storage Used",
+      "thisMonth": "This Month",
+      "activeUsers": "Active Users",
+      "documentsUnit": "documents",
+      "documents": "Documents",
+      "documentsByAcademicYear": "Documents by Academic Year",
+      "documentsByDepartment": "Documents by Department",
+      "recentUploads": "Recent Uploads",
+      "file": "File",
+      "department": "Department",
+      "uploadedBy": "Uploaded By",
+      "time": "Time",
+      "size": "Size",
+      "storageUsage": "Storage Usage",
+      "ofTotalUsed": "of {total} GB used",
+      "images": "Images",
+      "archives": "Archives",
+      "storageAlmostFull": "⚠️ Storage almost full! Please clean up old files.",
+      "storageHigh": "⚠️ Storage usage is high. Consider archiving old documents.",
+      "recentActivity": "Recent Activity",
+      "relative": {
+        "justNow": "Just now",
+        "minutesAgo": "{count}m ago",
+        "hoursAgo": "{count}h ago",
+        "daysAgo": "{count}d ago"
+      }
+    },
+    "admin": {
+      "common": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "never": "Never",
+        "unknown": "Unknown",
+        "saving": "Saving...",
+        "succeeded": "succeeded",
+        "failed": "failed"
+      },
+      "menus": {
+        "title": "Menu Management",
+        "subheader": "Manage navigation menus",
+        "add": "Add Menu",
+        "addNew": "Add New Menu",
+        "edit": "Edit Menu",
+        "empty": "No menus found. Click \"Add Menu\" to create one.",
+        "confirmDelete": "Are you sure you want to delete this menu?",
+        "root": "None (Root)",
+        "fields": {
+          "label": "Label",
+          "icon": "Icon (Iconify)",
+          "path": "Path (href)",
+          "parent": "Parent Menu",
+          "order": "Order",
+          "requiredRole": "Required Role"
+        },
+        "errors": {
+          "fetch": "Failed to fetch menus",
+          "create": "Failed to create menu",
+          "update": "Failed to update menu",
+          "delete": "Failed to delete menu"
+        },
+        "dialogs": {
+          "addChildTitle": "Add Child to \"{title}\"",
+          "childInfo": "This menu will be added as a child of",
+          "preview": "Preview",
+          "empty": {
+            "title": "No menus configured",
+            "subtitle": "Click \"Add Menu\" to create your first menu item"
+          },
+          "fields": {
+            "menuTitle": "Menu Title",
+            "iconOptional": "Icon (Optional)",
+            "pathOptional": "Path (Optional)",
+            "displayOrder": "Display Order",
+            "visibleForRoles": "Visible For Roles"
+          },
+          "placeholders": {
+            "menuTitle": "e.g., Dashboard, Users, Settings",
+            "path": "/dashboard, /admin/users"
+          },
+          "helpers": {
+            "path": "Leave empty for parent menus without a direct link",
+            "displayOrder": "Lower numbers appear first"
+          },
+          "actions": {
+            "adding": "Adding...",
+            "addMenu": "Add Menu",
+            "updating": "Updating...",
+            "updateMenu": "Update Menu",
+            "addChild": "Add Child"
+          },
+          "validation": {
+            "titleRequired": "Title is required",
+            "roleRequired": "At least one role must be selected"
+          },
+          "errors": {
+            "addFailed": "Failed to add menu. Please try again.",
+            "updateFailed": "Failed to update menu. Please try again."
+          }
+        },
+        "placeholders": {
+          "icon": "tabler-dashboard",
+          "path": "/manage",
+          "requiredRole": "ADMIN or STAFF"
+        }
+      },
+      "webhooks": {
+        "title": "Webhook Configuration",
+        "subheader": "Manage n8n webhook integrations",
+        "add": "Add Webhook",
+        "addNew": "Add New Webhook",
+        "edit": "Edit Webhook",
+        "empty": "No webhooks configured. Click \"Add Webhook\" to create one.",
+        "confirmDelete": "Are you sure you want to delete this webhook?",
+        "webhookUrl": "Webhook URL",
+        "lastTriggered": "Last Triggered",
+        "test": "Test",
+        "enabled": "Enabled",
+        "events": "Events (comma separated)",
+        "eventsHelp": "Leave empty to trigger on all events",
+        "departmentFixed": "Department cannot be changed",
+        "departmentUnique": "Unique per department",
+        "testResult": "Webhook test",
+        "status": "Status",
+        "errors": {
+          "fetch": "Failed to fetch webhooks",
+          "save": "Failed to save webhook",
+          "delete": "Failed to delete webhook",
+          "test": "Failed to test webhook"
+        },
+        "dialogs": {
+          "helpers": {
+            "url": "Enter your n8n webhook URL"
+          },
+          "fields": {
+            "eventsToTrigger": "Events to Trigger",
+            "customHeaders": "Custom Headers"
+          },
+          "placeholders": {
+            "headerKey": "Header Key",
+            "headerValue": "Header Value"
+          },
+          "actions": {
+            "adding": "Adding...",
+            "updating": "Updating...",
+            "updateWebhook": "Update Webhook",
+            "disable": "Disable"
+          },
+          "validation": {
+            "departmentRequired": "Department is required",
+            "urlRequired": "Webhook URL is required",
+            "urlInvalid": "Invalid webhook URL format",
+            "eventRequired": "At least one event must be selected"
+          },
+          "errors": {
+            "addFailed": "Failed to add webhook. Please try again.",
+            "updateFailed": "Failed to update webhook. Please try again."
+          },
+          "empty": {
+            "title": "No webhooks configured",
+            "subtitle": "Click \"Add Webhook\" to create your first webhook"
+          },
+          "status": {
+            "disabled": "Disabled"
+          },
+          "test": {
+            "webhookInformation": "Webhook Information",
+            "payload": "Test Payload",
+            "successMessage": "Webhook test successful! The endpoint responded correctly.",
+            "failMessage": "Webhook test failed. The endpoint did not respond or returned an error.",
+            "errorMessage": "Failed to test webhook. Please check your connection and try again.",
+            "statusCode": "Status Code",
+            "responseTime": "Response Time",
+            "testing": "Testing webhook connection...",
+            "testingShort": "Testing...",
+            "runTest": "Run Test"
+          }
+        },
+        "placeholders": {
+          "url": "https://n8n.example.com/webhook/...",
+          "events": "DOCUMENT_UPLOAD, DOCUMENT_UPDATE"
+        }
+      },
+      "logs": {
+        "title": "Activity Logs",
+        "subheader": "View system activity and user actions",
+        "action": "Action",
+        "resource": "Resource",
+        "userId": "User ID",
+        "userIdPlaceholder": "Filter by user ID",
+        "timestamp": "Timestamp",
+        "resourceId": "Resource ID",
+        "ipAddress": "IP Address",
+        "details": "Details",
+        "showDetails": "Show details",
+        "hideDetails": "Hide details",
+        "noDetails": "No details",
+        "rawJson": "Raw JSON",
+        "empty": "No activity logs found.",
+        "errors": {
+          "fetch": "Failed to fetch activity logs"
+        },
+        "dialogs": {
+          "detailTitle": "Activity Log Details",
+          "userInformation": "User Information",
+          "resourceInformation": "Resource Information",
+          "resourceType": "Resource Type",
+          "notAvailable": "N/A",
+          "userAgent": "User Agent"
+        },
+        "filters": {
+          "searchPlaceholder": "Search by user, action, or resource...",
+          "allActions": "All Actions",
+          "allResources": "All Resources",
+          "userName": "User Name",
+          "newestFirst": "Newest First",
+          "oldestFirst": "Oldest First"
+        },
+        "table": {
+          "emptyTitle": "No logs found",
+          "emptySubtitle": "Try adjusting your filters or search criteria"
+        }
+      },
+      "academicYears": {
+        "title": "Manage Academic Years",
+        "add": "Add Academic Year",
+        "create": "Create Academic Year",
+        "edit": "Edit Academic Year",
+        "year": "Year",
+        "start": "Start",
+        "end": "End",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "lock": "Lock",
+        "locked": "Locked",
+        "unlocked": "Unlocked",
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "empty": "No academic years found",
+        "confirmDelete": "Delete academic year",
+        "errors": {
+          "fetch": "Failed to fetch academic years",
+          "required": "Year and description are required",
+          "save": "Failed to save academic year",
+          "delete": "Failed to delete academic year",
+          "toggle": "Failed to toggle academic year",
+          "lockedDelete": "Cannot delete a locked academic year",
+          "lockedToggle": "Cannot change status of a locked academic year"
+        }
+      },
+      "users": {
+        "title": "User Management",
+        "subheader": "Manage user roles and permissions",
+        "users": "Users",
+        "usersFound": "users found",
+        "searchPlaceholder": "Search by email, name, department, or role...",
+        "currentRole": "Current Role",
+        "lastLogin": "Last Login",
+        "empty": "No users found",
+        "adjustSearch": "Try adjusting your search criteria",
+        "noRole": "No Role",
+        "switchRole": "Switch Role",
+        "switchUserRole": "Switch User Role",
+        "switching": "Switching...",
+        "switchWarning": "Switching role will remove all current roles and assign the new role. The user will need to re-login for changes to take full effect.",
+        "selectNewRole": "Select New Role",
+        "fullSystemAccess": "Full system access",
+        "standardUserAccess": "Standard user access",
+        "accessControl": "Access Control",
+        "accessSubheader": "Add allowed emails and their role (matched with userPrincipalName)",
+        "role": "Role",
+        "addAccess": "Add Access",
+        "loadingAccess": "Loading access list...",
+        "noAccessEntries": "No access entries yet",
+        "roleLabel": "Role",
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "accessAdded": "Access added",
+        "accessUpdated": "Access updated",
+        "roleSwitched": "Role switched successfully",
+        "errors": {
+          "fetchUsers": "Failed to fetch users",
+          "fetchAccess": "Failed to fetch access list",
+          "addAccess": "Failed to add access",
+          "updateAccess": "Failed to update access",
+          "switchRole": "Failed to switch role"
+        },
+        "dialogs": {
+          "addTitle": "Add New User",
+          "editTitle": "Edit User",
+          "fields": {
+            "emailAddress": "Email Address",
+            "fullName": "Full Name",
+            "permissions": "Permissions",
+            "menuAccess": "Menu Access"
+          },
+          "helpers": {
+            "signInEmail": "User will sign in with Microsoft 365 using this email",
+            "emailReadonly": "Email cannot be changed"
+          },
+          "permissions": {
+            "canUpload": "Can Upload Documents",
+            "canEdit": "Can Edit Documents",
+            "canDelete": "Can Delete Documents",
+            "canViewLogs": "Can View Activity Logs",
+            "canManageUsers": "Can Manage Users",
+            "canManageMenus": "Can Manage Menus",
+            "canConfigureWebhooks": "Can Configure Webhooks"
+          },
+          "menus": {
+            "dashboard": "Dashboard",
+            "upload": "Upload",
+            "edit": "Edit",
+            "history": "History",
+            "users": "Users",
+            "menus": "Menus",
+            "logs": "Logs",
+            "webhooks": "Webhooks"
+          },
+          "validation": {
+            "emailRequired": "Email is required",
+            "emailInvalid": "Invalid email format",
+            "nameRequired": "Name is required",
+            "menuRequired": "At least one menu must be selected"
+          },
+          "errors": {
+            "addFailed": "Failed to add user. Please try again.",
+            "updateFailed": "Failed to update user. Please try again."
+          },
+          "actions": {
+            "adding": "Adding...",
+            "addUser": "Add User",
+            "updating": "Updating...",
+            "updateUser": "Update User"
+          },
+          "placeholders": {
+            "emailExample": "user@organization.com",
+            "fullNameExample": "John Doe"
+          }
+        },
+        "accessEmailPlaceholder": "e.g. 65021262 or 65021262@up.ac.th"
+      },
+      "reviewQueue": {
+        "title": "Eligibility Review Queue",
+        "subheader": "Documents with uncertain parsed eligibility tables that should be reviewed",
+        "empty": "No pending documents in the review queue 🎉",
+        "searchLabel": "Search review queue",
+        "searchPlaceholder": "Search by file name / document title / conversionId",
+        "searchNoMatch": "No items match your search",
+        "noMin": "No minimum",
+        "noMinGpaRule": "No minimum GPA",
+        "columns": {
+          "document": "Document",
+          "eligibilityRows": "Eligibility Rows",
+          "preview": "Preview",
+          "chunks": "Chunks",
+          "reason": "Reason",
+          "updated": "Updated"
+        },
+        "actions": {
+          "audit": "Audit",
+          "editRows": "Edit rows",
+          "queueing": "Queueing...",
+          "reconvert": "Re-convert",
+          "resolving": "Resolving...",
+          "markResolved": "Mark Resolved"
+        },
+        "errors": {
+          "loadQueue": "Failed to load review queue",
+          "resolve": "Failed to resolve queue item",
+          "requeue": "Failed to requeue conversion",
+          "loadRows": "Failed to load eligibility rows",
+          "requireProgramName": "At least 1 row with a program name is required",
+          "saveRows": "Failed to save eligibility rows",
+          "loadAudit": "Failed to load audit history"
+        },
+        "editor": {
+          "title": "Edit Eligibility Rows — {title}",
+          "added": "Added {count}",
+          "updated": "Updated {count}",
+          "removed": "Removed {count}",
+          "fields": {
+            "code": "Code",
+            "faculty": "Faculty",
+            "programName": "Program name",
+            "minGpa": "Min GPA",
+            "noMin": "No min"
+          },
+          "remove": "Remove",
+          "addRow": "Add row",
+          "saveResolve": "Save & Resolve"
+        },
+        "audit": {
+          "title": "Audit History — {conversionId}",
+          "empty": "No edit history yet",
+          "filterStatus": "Filter status",
+          "exportCsv": "Export CSV",
+          "exportJson": "Export JSON",
+          "action": "Action",
+          "beforeCount": "Before {count}",
+          "afterCount": "After {count}",
+          "columns": {
+            "program": "Program",
+            "before": "Before",
+            "after": "After"
+          },
+          "noDiffSample": "No row-level diff sample"
+        }
+      }
+    },
+    "edit": {
+      "title": "Edit Documents",
+      "subtitle": "Select a document to edit its information or replace the file",
+      "searchPlaceholder": "Search by file name, department, year, or description...",
+      "documentList": "Document List",
+      "editableDocumentsFound": "{total} editable documents found",
+      "previous": "Previous",
+      "next": "Next",
+      "pageOf": "Page {page} of {totalPages}",
+      "noDocuments": "No documents found",
+      "adjustSearch": "Try adjusting your search criteria",
+      "editsMade": "{count} edits made",
+      "editCount": "{count} edits",
+      "table": {
+        "document": "Document",
+        "size": "Size",
+        "edits": "Edits",
+        "lastModified": "Last Modified"
+      },
+      "dialog": {
+        "title": "Edit Document",
+        "tabs": {
+          "editInfo": "Edit Info",
+          "replaceFile": "Replace File",
+          "versionHistory": "Version History"
+        },
+        "editedTimes": "Edited {count} times",
+        "fields": {
+          "title": "Title",
+          "changeNote": "Change Note",
+          "replaceReason": "Reason for Replacement"
+        },
+        "placeholders": {
+          "changeNote": "Describe what you changed...",
+          "replaceReason": "Explain why you are replacing the file..."
+        },
+        "helpers": {
+          "changeNoteRequired": "Required: Explain the changes you made",
+          "replaceReasonRequired": "Required: Explain the reason for file replacement"
+        },
+        "validation": {
+          "changeNoteRequired": "Please provide a change note",
+          "fileSize": "File size must be less than 50MB"
+        },
+        "errors": {
+          "saveFailed": "Failed to save changes. Please try again."
+        },
+        "replaceWarning": "Replacing the file will create a new version.",
+        "currentFile": "Current File",
+        "newFile": "New File",
+        "chooseFile": "Choose File",
+        "versionHistoryInfo": "Version history will be displayed here",
+        "currentVersion": "Current",
+        "versionLabel": "Version {version}",
+        "opening": "Opening...",
+        "saving": "Saving...",
+        "saveChanges": "Save Changes"
+      },
+      "alerts": {
+        "deleteSheetsSyncFailedTitle": "Document deleted in main system, but failed to delete data in Google Sheets",
+        "deleteFailedTitle": "Failed to delete document",
+        "unknownError": "Unknown error",
+        "updateSheetsSyncFailedTitle": "Document updated, but failed to clear old data in Google Sheets",
+        "requeueConversionFailedTitle": "Document updated, but failed to enqueue reconversion"
+      }
+    },
+    "authTemplates": {
+      "welcome": "Welcome to {name}! 👋🏻",
+      "signInAdventure": "Please sign-in to your account and start the adventure",
+      "emailOrUsername": "Email or Username",
+      "enterEmailOrUsername": "Enter your email or username",
+      "rememberMe": "Remember me",
+      "forgotPasswordQ": "Forgot password?",
+      "login": "Login",
+      "newOnPlatform": "New on our platform?",
+      "createAccount": "Create an account",
+      "resetPasswordSubtitle": "Your new password must be different from previously used passwords",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "setNewPassword": "Set New Password",
+      "twoStepTitle": "Two Step Verification 💬",
+      "twoStepDesc": "We sent a verification code to your mobile. Enter the code from the mobile in the field below.",
+      "securityCodePrompt": "Type your 6 digit security code",
+      "verifyAccount": "Verify my account",
+      "didntGetCode": "Didn't get the code?",
+      "resend": "Resend",
+      "verifyEmailTitle": "Verify your email ✉️",
+      "verifyEmailDesc": "Account activation link sent to your email address: {email} Please follow the link inside to continue.",
+      "skipForNow": "Skip For Now",
+      "didntGetMail": "Didn't get the mail?",
+      "accountInfo": "Account Information",
+      "enterAccountDetails": "Enter Your Account Details",
+      "profileLink": "Profile Link",
+      "previous": "Previous",
+      "next": "Next",
+      "personalInfo": "Personal Information",
+      "enterPersonalInfo": "Enter Your Personal Information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "pinCode": "Pin Code",
+      "address": "Address",
+      "landmark": "Landmark",
+      "state": "State",
+      "selectPlan": "Select Plan",
+      "selectPlanRequirement": "Select plan as per your requirement",
+      "paymentInfo": "Payment Information",
+      "enterCardInfo": "Enter your card information",
+      "cardNumber": "Card Number",
+      "nameOnCard": "Name On Card",
+      "expiryDate": "Expiry Date",
+      "cvvCode": "CVV Code",
+      "submit": "Submit",
+      "submitted": "Submitted..!!",
+      "stepAccount": "Account",
+      "stepAccountSubtitle": "Enter your Account Details",
+      "stepPersonal": "Personal",
+      "stepPersonalSubtitle": "Setup Information",
+      "stepBilling": "Billing",
+      "stepBillingSubtitle": "Add Social Links",
+      "city": "City",
+      "mobile": "Mobile",
+      "countryCodeUS": "US (+1)",
+      "stateNewYork": "New York",
+      "stateCalifornia": "California",
+      "stateTexas": "Texas",
+      "stateFlorida": "Florida",
+      "stateWashington": "Washington",
+      "planBasic": "Basic",
+      "planBasicDescription": "A simple start for start ups & Students",
+      "planStandard": "Standard",
+      "planStandardDescription": "For small to medium businesses",
+      "planEnterprise": "Enterprise",
+      "planEnterpriseDescription": "Solution for enterprise & organizations",
+      "perMonth": "/month"
+    },
+    "frontPagesShared": {
+      "home": "Home",
+      "features": "Features",
+      "team": "Team",
+      "faq": "FAQ",
+      "contactUs": "Contact us",
+      "pages": "Pages",
+      "page": "Page",
+      "authDemo": "Auth Demo",
+      "admin": "Admin",
+      "helpCenter": "Help Center",
+      "dropdownImageAlt": "dropdown image",
+      "header": {
+        "purchaseNow": "Purchase Now"
+      },
+      "footer": {
+        "backgroundAlt": "footer background",
+        "description": "Most Powerful & Comprehensive 🤩 React NextJS Admin Template with Elegant Material Design & Unique Layouts.",
+        "subscribeLabel": "Subscribe to newsletter",
+        "emailPlaceholder": "Your email",
+        "subscribe": "Subscribe",
+        "pagesTitle": "Pages",
+        "pricing": "Pricing",
+        "payment": "Payment",
+        "new": "New",
+        "maintenance": "Maintenance",
+        "comingSoon": "Coming Soon",
+        "productsTitle": "Products",
+        "pageBuilder": "Page builder",
+        "adminDashboards": "Admin Dashboards",
+        "uiKits": "UI Kits",
+        "illustrations": "Illustrations",
+        "downloadApp": "Download our App",
+        "appleStoreAlt": "apple store",
+        "googlePlayAlt": "Google play",
+        "downloadOnThe": "Download on the",
+        "appStore": "App Store",
+        "googlePlay": "Google Play",
+        "madeWith": "Made with",
+        "by": "by"
+      }
+    },
+    "chat": {
+      "page": {
+        "title": "Division of Educational Services",
+        "subtitle": "Public page for document Q&A (no login required)",
+        "sectionTitle": "Ai Does",
+        "usernameRequired": "Please enter your username before starting the chat"
+      },
+      "username": {
+        "title": "User",
+        "subtitle": "Your name is stored on this device",
+        "label": "Username",
+        "placeholder": "e.g. Anming",
+        "confirm": "Confirm Name",
+        "activeAs": "Signed in as: {username}"
+      },
+      "messages": {
+        "readyTitle": "Ready for questions",
+        "readySubtitle": "Type your question below to start"
+      },
+      "composer": {
+        "label": "Type your question (Enter to send, Shift+Enter for new line)",
+        "send": "Send"
+      },
+      "errors": {
+        "emptyResponse": "Question received, but no answer was returned by the system",
+        "unknown": "An unknown error occurred"
+      }
+    },
+    "layout": {
+      "mode": {
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+      },
+      "notifications": {
+        "title": "Notifications",
+        "newCount": "{count} New",
+        "markAllUnread": "Mark all as unread",
+        "markAllRead": "Mark all as read",
+        "viewAll": "View All Notifications"
+      },
+      "shortcuts": {
+        "title": "Shortcuts",
+        "addShortcut": "Add Shortcut"
+      },
+      "user": {
+        "userIdNotFound": "User ID not found. Please logout and login again.",
+        "roleNotFound": "Role not found in system.",
+        "roleSwitched": "Role switched to {role}.",
+        "switchRoleFailed": "Failed to switch role",
+        "myProfile": "My Profile",
+        "settings": "Settings",
+        "pricing": "Pricing",
+        "faq": "FAQ",
+        "switchRole": "Switch Role",
+        "switchTo": "To: {role}",
+        "logout": "Logout",
+        "switchRoleWarning": "You will be logged out after switching role. Please login again to apply changes.",
+        "unknown": "Unknown",
+        "current": "Current",
+        "selectNewRole": "Select New Role",
+        "fullSystemAccess": "Full system access",
+        "standardUserAccess": "Standard user access",
+        "switching": "Switching..."
+      }
+    },
+    "search": {
+      "trigger": "Search",
+      "inputPlaceholder": "Search...",
+      "escKey": "esc",
+      "noResultFor": "No result for \"{query}\"",
+      "trySearchingFor": "Try searching for",
+      "footer": {
+        "toNavigate": "to navigate",
+        "toOpen": "to open",
+        "toClose": "to close"
+      },
+      "sections": {
+        "popularSearches": "Popular Searches",
+        "apps": "Apps",
+        "pages": "Pages",
+        "formsCharts": "Forms & Charts"
+      },
+      "items": {
+        "analytics": "Analytics",
+        "crm": "CRM",
+        "ecommerce": "eCommerce",
+        "userList": "User List",
+        "calendar": "Calendar",
+        "invoiceList": "Invoice List",
+        "rolesPermissions": "Roles & Permissions",
+        "userProfile": "User Profile",
+        "accountSettings": "Account Settings",
+        "pricing": "Pricing",
+        "faq": "FAQ",
+        "formLayouts": "Form Layouts",
+        "formValidation": "Form Validation",
+        "formWizard": "Form Wizard",
+        "apexCharts": "Apex Charts"
+      }
+    },
+    "api": {
+      "unauthorized": "Unauthorized",
+      "internalServerError": "Internal server error",
+      "backendTokenNotFound": "Backend token not found",
+      "backendApiError": "Backend API error",
+      "backendUploadError": "Backend upload error",
+      "backendUpdateError": "Backend update error",
+      "backendDeleteError": "Backend delete error",
+      "deprecatedEndpoint": "Deprecated endpoint",
+      "templateRouteDisabled": "Template API route is disabled in production.",
+      "useNextAuthLogin": "Use NextAuth login flow at /api/auth/[...nextauth] instead.",
+      "useDocumentsUpload": "Use /api/documents/upload instead.",
+      "notImplemented": "Not implemented",
+      "userCreationViaRoleAccess": "User creation must be done through DMFAPI role/access endpoints.",
+      "userUpdatesViaRoleAccess": "User updates must be done through DMFAPI role/access endpoints.",
+      "userDeletionViaRoleAccess": "User deletion must be done through DMFAPI role/access endpoints.",
+      "chatbotBackendError": "Chatbot backend error",
+      "chatbotUnavailable": "Unable to connect to chatbot service",
+      "uploadTimedOut": "Upload timed out while contacting backend",
+      "uploadFailed": "Upload failed"
+    },
+    "frontPages": {
+      "pricing": {
+        "freeTrial": {
+          "title": "Still not convinced? Start with a 14-day FREE trial!",
+          "subtitle": "You will get full access to with all the features for 14 days.",
+          "cta": "Start 14-Days Free Trial",
+          "imageAlt": "girl with laptop"
+        },
+        "plans": {
+          "title": "Pick a plan that works best for you",
+          "subtitle": "Stay cool, we have a 48-hour money back guarantee!",
+          "choosePlan": "Choose Plan",
+          "addOnAvailable": "Add-on-Available",
+          "features": [
+            "14-days free trial",
+            "No user limit",
+            "Product Support",
+            "Email Support",
+            "Integrations",
+            "Removal of Front branding",
+            "Active maintenance & support",
+            "Data storage for 365 days"
+          ],
+          "table": {
+            "featuresLabel": "FEATURES",
+            "featuresSubLabel": "Native Front Features",
+            "starterLabel": "STARTER",
+            "starterPrice": "Free",
+            "proLabel": "Pro",
+            "proPrice": "$7.5/Month",
+            "enterpriseLabel": "ENTERPRISE",
+            "enterprisePrice": "$16/Month"
+          }
+        },
+        "faq": {
+          "title": "FAQ's",
+          "subtitle": "Let us help answer the most common questions.",
+          "items": [
+            {
+              "question": "What counts towards the 100 responses limit?",
+              "answer": "We count all responses submitted through all your forms in a month. If you already received 100 responses this month, you won’t be able to receive any more of them until next month when the counter resets."
+            },
+            {
+              "question": "How do you process payments?",
+              "answer": "We accept Visa®, MasterCard®, American Express®, and PayPal®. So you can be confident that your credit card information will be kept safe and secure."
+            },
+            {
+              "question": "What payment methods do you accept?",
+              "answer": "2Checkout accepts all types of credit and debit cards."
+            },
+            {
+              "question": "Do you have a money-back guarantee?",
+              "answer": "Yes. You may request a refund within 30 days of your purchase without any additional explanations."
+            },
+            {
+              "question": "I have more questions. Where can I get help?",
+              "answer": "Please contact us if you have any other questions or concerns. We’re here to help!"
+            }
+          ]
+        }
+      },
+      "payment": {
+        "methods": {
+          "creditCard": "Credit Card",
+          "creditCardAlt": "credit card",
+          "paypal": "Paypal",
+          "paypalAlt": "paypal"
+        },
+        "countries": {
+          "australia": "Australia",
+          "brazil": "Brazil",
+          "canada": "Canada",
+          "india": "India",
+          "unitedArabEmirates": "United Arab Emirates",
+          "unitedKingdom": "United Kingdom",
+          "unitedStates": "United States"
+        },
+        "checkout": {
+          "title": "Checkout",
+          "subtitle": "All plans include 40+ advanced tools and features to boost your product. Choose the best plan to fit your needs."
+        },
+        "billingDetails": {
+          "title": "Billing Details",
+          "emailLabel": "Email Address",
+          "emailPlaceholder": "john.deo@gmail.com",
+          "passwordLabel": "Password",
+          "passwordPlaceholder": "Password",
+          "countryLabel": "Billing Country",
+          "zipLabel": "Billing Zip / Postal Code",
+          "zipPlaceholder": "Billing Zip / Postal Code"
+        },
+        "cardInfo": {
+          "title": "Credit Card Info",
+          "cardNumberLabel": "Card Number",
+          "cardNumberPlaceholder": "8763 2345 3478",
+          "cardHolderLabel": "Card Holder",
+          "cardHolderPlaceholder": "John Doe",
+          "expDateLabel": "EXP. date",
+          "expDatePlaceholder": "05/2026",
+          "cvvLabel": "CVV",
+          "cvvPlaceholder": "734"
+        },
+        "orderSummary": {
+          "title": "Order Summary",
+          "subtitle": "It can help you manage and service orders before, during, and after fulfillment.",
+          "planName": "A simple start for everyone",
+          "perMonth": "/month",
+          "changePlan": "Change Plan",
+          "subscription": "Subscription",
+          "tax": "Tax",
+          "total": "Total",
+          "proceed": "Proceed With Payment"
+        },
+        "footerNote": "By continuing, you accept to our Terms of Services and Privacy Policy. Please note that payments are non-refundable."
+      },
+      "helpCenter": {
+        "readMore": "Read More",
+        "header": {
+          "title": "Hello, how can we help?",
+          "searchPlaceholder": "Ask a question...",
+          "subtitle": "Common troubleshooting topics: eCommerce, Blogging to payment"
+        },
+        "articles": {
+          "title": "Popular Articles",
+          "items": [
+            {
+              "title": "Getting Started",
+              "subtitle": "Whether you're new or you're a power user, this article will"
+            },
+            {
+              "title": "First Steps",
+              "subtitle": "Are you a new customer and wondering how to get started?"
+            },
+            {
+              "title": "Add External Content",
+              "subtitle": "Article will show you how to expand the functionality of App"
+            }
+          ]
+        },
+        "knowledgeBase": {
+          "title": "Knowledge Base",
+          "seeAllArticles": "See all 6 articles",
+          "categories": [
+            {
+              "title": "Buying",
+              "articles": [
+                "What are Favourites?",
+                "How do I purchase an item?",
+                "How do i add or change my details?",
+                "How do refunds work?",
+                "Can I Get A Refund?",
+                "I'm trying to find a specific item"
+              ]
+            },
+            {
+              "title": "Item Support",
+              "articles": [
+                "What is Item Support?",
+                "How to contact an author?",
+                "Where Is My Purchase Code?",
+                "Extend or renew Item Support",
+                "Item Support FAQ",
+                "Why has my item been removed?"
+              ]
+            },
+            {
+              "title": "Licenses",
+              "articles": [
+                "Can I use the same license for the...",
+                "How to contact an author?",
+                "I'm making a test site - it's not for ...",
+                "which license do I need?",
+                "I want to make multiple end prod ...",
+                "For logo what license do I need?"
+              ]
+            },
+            {
+              "title": "Template Kits",
+              "articles": [
+                "Template Kits",
+                "Elementor Template Kits: PHP Zip ...",
+                "Template Kits - Imported template ...",
+                "Troubleshooting Import Problems",
+                "How to use the WordPress Plugin ...",
+                "How to use the Template Kit Import ..."
+              ]
+            },
+            {
+              "title": "Account & Password",
+              "articles": [
+                "Signing in with a social account",
+                "Locked Out of Account",
+                "I'm not receiving the verification email",
+                "Forgotten Username Or Password",
+                "New password not accepted",
+                "What is Sign In Verification?"
+              ]
+            },
+            {
+              "title": "Account Settings",
+              "articles": [
+                "How do I change my password?",
+                "How do I change my username?",
+                "How do I close my account?",
+                "How do I change my email address?",
+                "How can I regain access to my a ...",
+                "Are RSS feeds available on Market?"
+              ]
+            }
+          ]
+        },
+        "keepLearning": {
+          "title": "Keep Learning",
+          "items": [
+            {
+              "title": "Blogging",
+              "subtitle": "Expert tips & tools to improve your website or online store using blog."
+            },
+            {
+              "title": "Inspiration Center",
+              "subtitle": "Inspiration from experts to help you start and grow your big ideas."
+            },
+            {
+              "title": "Community",
+              "subtitle": "A group of people living in the same place or having a particular."
+            }
+          ]
+        },
+        "needHelp": {
+          "title": "Still need help?",
+          "subtitle": "Our specialists are always happy to help. Contact us during standard business hours or email us 24/7, and we'll get back to you.",
+          "communityCta": "Visit our community",
+          "contactCta": "Contact Us"
+        },
+        "article": {
+          "breadcrumbHome": "Help Center",
+          "breadcrumbCurrent": "How to add product in cart",
+          "title": "How to add product in cart?",
+          "updatedAt": "1 month ago - Updated",
+          "content": [
+            "If you're after only one item, simply choose the 'Buy Now' option on the item page. This will take you directly to Checkout.",
+            "If you want several items, use the 'Add to Cart' button and then choose 'Keep Browsing' to continue shopping or 'Checkout' to finalize your purchase.",
+            "You can go back to your cart at any time by clicking on the shopping cart icon at the top right side of the page."
+          ],
+          "productImageAlt": "product image",
+          "checkoutImageAlt": "checkout image",
+          "searchPlaceholder": "Search...",
+          "sectionTitle": "Articles in this section",
+          "sidebarArticles": [
+            "Template Kits",
+            "Elementor Template Kits: PHP Zip Extends",
+            "Envato Elements Template Kits",
+            "Envato Elements Template Kits",
+            "How to use the template in WordPress",
+            "How to use the Template Kit Import"
+          ]
+        }
+      },
+      "landing": {
+        "shared": {
+          "bgShapeAlt": "bg-shape"
+        },
+        "hero": {
+          "backgroundAlt": "hero-bg",
+          "title": "All in one sass application for your business",
+          "subtitle": "No coding required to make customizations. The live customizer has everything your marketing need.",
+          "joinCommunity": "Join community",
+          "joinCommunityArrowAlt": "arrow",
+          "getEarlyAccess": "Get Early Access",
+          "dashboardAlt": "dashboard-image",
+          "elementsAlt": "dashboard-elements"
+        },
+        "usefulFeature": {
+          "chip": "Useful Feature",
+          "titleHighlight": "Everything you need",
+          "titleSuffix": "to start your next project",
+          "subtitle": "Not just a set of tools, the package includes ready-to-deploy conceptual application.",
+          "items": {
+            "qualityCode": {
+              "title": "Quality Code",
+              "description": "Code structure that all developers will easily understand and fall in love with."
+            },
+            "continuousUpdates": {
+              "title": "Continuous Updates",
+              "description": "Free updates for the next 12 months, including new demos and features."
+            },
+            "starterKit": {
+              "title": "Stater-Kit",
+              "description": "Start your project quickly without having to remove unnecessary features."
+            },
+            "apiReady": {
+              "title": "API Ready",
+              "description": "Just change the endpoint and see your own data loaded within seconds."
+            },
+            "excellentSupport": {
+              "title": "Excellent Support",
+              "description": "An easy-to-follow doc with lots of references and code examples."
+            },
+            "wellDocumented": {
+              "title": "Well Documented",
+              "description": "An easy-to-follow doc with lots of references and code examples."
+            }
+          }
+        },
+        "customerReviews": {
+          "chip": "Real Customers Reviews",
+          "title": "What people say",
+          "subtitle": "See what our customers have to say about their experience.",
+          "items": {
+            "item1": {
+              "desc": "I've never used a theme as versatile and flexible as Vuexy. It's my go to for building dashboard sites on almost any project.",
+              "position": "Founder of Pinterest"
+            },
+            "item2": {
+              "desc": "Materio is awesome, and I particularly enjoy knowing that if I get stuck on something.",
+              "position": "Founder of Netflix"
+            },
+            "item3": {
+              "desc": "This template is superior in so many ways. The code, the design, the regular updates, the support.. It's the whole package. Excellent Work.",
+              "position": "CTO of Airbnb"
+            },
+            "item4": {
+              "desc": "All the requirements for developers have been taken into consideration, so I'm able to build any interface I want.",
+              "position": "Founder of Coinbase"
+            },
+            "item5": {
+              "desc": "I've never used a theme as versatile and flexible as Vuexy. It's my go to for building dashboard sites on almost any project.",
+              "position": "Founder of Dribble"
+            },
+            "item6": {
+              "desc": "I've never used a theme as versatile and flexible as Vuexy. It's my go to for building dashboard sites on almost any project.",
+              "position": "Founder of Pinterest"
+            },
+            "item7": {
+              "desc": "Materio is awesome, and I particularly enjoy knowing that if I get stuck on something.",
+              "position": "Founder of HubSpot"
+            },
+            "item8": {
+              "desc": "This template is superior in so many ways. The code, the design, the regular updates, the support.. It's the whole package. Excellent Work.",
+              "position": "CTO of Airbnb"
+            },
+            "item9": {
+              "desc": "All the requirements for developers have been taken into consideration, so I'm able to build any interface I want.",
+              "position": "Founder of Coinbase"
+            },
+            "item10": {
+              "desc": "Materio is awesome, and I particularly enjoy knowing that if I get stuck on something.",
+              "position": "Founder of Dribbble"
+            }
+          }
+        },
+        "ourTeam": {
+          "chip": "Our Great Team",
+          "titleHighlight": "Supported",
+          "titleSuffix": "by Real People",
+          "subtitle": "Who is behind these great-looking interfaces?",
+          "positions": {
+            "projectManager": "Project Manager",
+            "uiDesigner": "UI Designer",
+            "developmentLead": "Development Lead",
+            "marketingManager": "Marketing Manager"
+          }
+        },
+        "pricing": {
+          "chip": "Pricing Plans",
+          "titleHighlight": "Tailored pricing plans",
+          "titleSuffix": "designed for you",
+          "subtitleLine1": "All plans include 40+ advanced tools and features to boost your product.",
+          "subtitleLine2": "Choose the best plan to fit your needs.",
+          "payMonthly": "Pay Monthly",
+          "payAnnually": "Pay Annually",
+          "saveArrowAlt": "pricing arrow",
+          "save": "Save 25%",
+          "perMonth": "/mo",
+          "perYear": "/ year",
+          "getStarted": "Get Started",
+          "plans": {
+            "basic": {
+              "title": "Basic"
+            },
+            "team": {
+              "title": "Team"
+            },
+            "enterprise": {
+              "title": "Enterprise"
+            }
+          },
+          "features": {
+            "timeline": "Timeline",
+            "basicSearch": "Basic search",
+            "liveChatWidget": "Live chat widget",
+            "emailMarketing": "Email marketing",
+            "customForms": "Custom Forms",
+            "trafficAnalytics": "Traffic analytics",
+            "everythingInBasic": "Everything in basic",
+            "timelineWithDatabase": "Timeline with database",
+            "advancedSearch": "Advanced search",
+            "marketingAutomation": "Marketing automation",
+            "advancedChatbot": "Advanced chatbot",
+            "campaignManagement": "Campaign management",
+            "fuzzySearch": "Fuzzy search",
+            "abTestingSandbox": "A/B testing sanbox",
+            "customPermissions": "Custom permissions",
+            "socialMediaAutomation": "Social media automation"
+          }
+        },
+        "productStat": {
+          "supportTicketsResolved": "Support Tickets Resolved",
+          "joinCreativesCommunity": "Join creatives community",
+          "highlyRatedProducts": "Highly Rated Products",
+          "moneyBackGuarantee": "Money Back Guarantee"
+        },
+        "faq": {
+          "chip": "FAQ",
+          "titlePrefix": "Frequently asked",
+          "titleHighlight": "questions",
+          "subtitle": "Browse through these FAQs to find answers to commonly asked questions.",
+          "illustrationAlt": "boy with laptop",
+          "items": {
+            "panel1": {
+              "question": "Do you charge for each upgrade?",
+              "answer": "Lemon drops chocolate cake gummies carrot cake chupa chups muffin topping. Sesame snaps icing marzipan gummi bears macaroon dragée danish caramels powder. Bear claw dragée pastry topping soufflé. Wafer gummi bears marshmallow pastry pie."
+            },
+            "panel2": {
+              "question": "What is regular license?",
+              "answer": "Regular license can be used for end products that do not charge users for access or service(access is free and there will be no monthly subscription fee). Single regular license can be used for single end product and end product can be used by you or your client. If you want to sell end product to multiple clients then you will need to purchase separate license for each client. The same rule applies if you want to use the same end product on multiple domains(unique setup). For more info on regular license you can check official description."
+            },
+            "panel3": {
+              "question": "What is extended license?",
+              "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis et aliquid quaerat possimus maxime! Mollitia reprehenderit neque repellat deleniti delectus architecto dolorum maxime, blanditiis earum ea, incidunt quam possimus cumque."
+            },
+            "panel4": {
+              "question": "Which license is applicable for SASS application?",
+              "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis et aliquid quaerat possimus maxime! Mollitia reprehenderit neque repellat deleniti delectus architecto dolorum maxime, blanditiis earum ea, incidunt quam possimus cumque."
+            }
+          }
+        },
+        "getStarted": {
+          "backgroundAlt": "background-image",
+          "title": "Ready to Get Started?",
+          "subtitle": "Start your project with a 14-day free trial",
+          "button": "Get Started",
+          "dashboardAlt": "dashboard-image"
+        },
+        "contactUs": {
+          "chip": "Contact Us",
+          "titleHighlight": "Let's work",
+          "titleSuffix": "together",
+          "subtitle": "Any question or remark? just write us a message",
+          "borderAlt": "contact-border",
+          "customerServiceAlt": "customer-service",
+          "email": "Email",
+          "phone": "Phone",
+          "sendMessageTitle": "Send a message",
+          "sendMessageDescription": "If you would like to discuss anything related to payment, account, licensing, partnerships, or have pre-sales questions, you're at the right place.",
+          "fullName": "Full name",
+          "emailAddress": "Email address",
+          "message": "Message",
+          "sendInquiry": "Send Inquiry"
+        }
+      }
+    }
+  }
+}

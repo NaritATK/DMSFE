@@ -1,0 +1,1412 @@
+{
+  "navigation": {
+    "dashboard": "แดชบอร์ด",
+    "upload": "อัปโหลดเอกสาร",
+    "edit": "แก้ไขเอกสาร",
+    "history": "ประวัติ",
+    "administration": "จัดการระบบ",
+    "users": "จัดการผู้ใช้",
+    "menus": "จัดการเมนู",
+    "academicYears": "จัดการปีการศึกษา",
+    "logs": "บันทึกกิจกรรม",
+    "webhooks": "ตั้งค่า Webhook",
+    "login": "เข้าสู่ระบบ",
+    "logout": "ออกจากระบบ",
+    "profile": "โปรไฟล์",
+    "settings": "ตั้งค่า",
+    "add": "เพิ่ม",
+    "resetPassword": "รีเซ็ตรหัสผ่าน"
+  },
+  "common": {
+    "save": "บันทึก",
+    "cancel": "ยกเลิก",
+    "delete": "ลบ",
+    "edit": "แก้ไข",
+    "create": "สร้าง",
+    "search": "ค้นหา",
+    "filter": "กรอง",
+    "actions": "การดำเนินการ",
+    "status": "สถานะ",
+    "name": "ชื่อ",
+    "email": "อีเมล",
+    "role": "บทบาท",
+    "department": "แผนก",
+    "description": "รายละเอียด",
+    "date": "วันที่",
+    "time": "เวลา",
+    "file": "ไฟล์",
+    "size": "ขนาด",
+    "type": "ประเภท",
+    "uploadedBy": "อัปโหลดโดย",
+    "academicYear": "ปีการศึกษา",
+    "submit": "ส่ง",
+    "close": "ปิด",
+    "confirm": "ยืนยัน",
+    "success": "สำเร็จ",
+    "error": "ผิดพลาด",
+    "warning": "คำเตือน",
+    "info": "ข้อมูล",
+    "loading": "กำลังโหลด...",
+    "noData": "ไม่มีข้อมูล",
+    "viewAll": "ดูทั้งหมด",
+    "showMore": "แสดงเพิ่ม",
+    "showLess": "แสดงน้อยลง"
+  },
+  "upload": {
+    "title": "อัปโหลดเอกสาร",
+    "selectFiles": "เลือกไฟล์",
+    "dragDrop": "ลากและวางไฟล์ที่นี่",
+    "orBrowse": "หรือคลิกเพื่อเลือกไฟล์",
+    "maxFiles": "สูงสุด 10 ไฟล์",
+    "maxSize": "ขนาดสูงสุด 50MB",
+    "documentInfo": "ข้อมูลเอกสาร",
+    "uploader": "ผู้อัปโหลดเอกสาร",
+    "year": "ปีการศึกษา",
+    "department": "แผนก",
+    "description": "รายละเอียด",
+    "uploadButton": "อัปโหลด",
+    "uploading": "กำลังอัปโหลด..."
+  },
+  "dms": {
+    "common": {
+      "actions": "การดำเนินการ",
+      "academicYear": "ปีการศึกษา",
+      "department": "หน่วยงาน",
+      "description": "รายละเอียด",
+      "file": "ไฟล์",
+      "close": "ปิด",
+      "loading": "กำลังโหลด...",
+      "preview": "ดูตัวอย่าง",
+      "download": "ดาวน์โหลด",
+      "viewDetails": "ดูรายละเอียด",
+      "remove": "ลบ",
+      "uploadFailed": "อัปโหลดล้มเหลว",
+      "email": "อีเมล",
+      "enterEmail": "กรอกอีเมล",
+      "password": "รหัสผ่าน",
+      "or": "หรือ",
+      "backToHome": "กลับหน้าแรก",
+      "save": "บันทึก",
+      "cancel": "ยกเลิก",
+      "edit": "แก้ไข",
+      "delete": "ลบ",
+      "status": "สถานะ",
+      "user": "ผู้ใช้",
+      "all": "ทั้งหมด",
+      "refresh": "รีเฟรช",
+      "name": "ชื่อ",
+      "fileSizeUnits": {
+        "bytes": "ไบต์",
+        "kb": "KB",
+        "mb": "MB",
+        "gb": "GB"
+      }
+    },
+    "upload": {
+      "title": "อัปโหลดเอกสาร",
+      "subtitle": "อัปโหลดหลายเอกสารพร้อมข้อมูลกำกับ",
+      "selectFiles": "เลือกไฟล์",
+      "documentInfo": "ข้อมูลเอกสาร",
+      "upload": "อัปโหลด",
+      "uploading": "กำลังอัปโหลด...",
+      "retryFailed": "ลองใหม่เฉพาะที่ล้มเหลว",
+      "clearFailed": "ล้างรายการที่ล้มเหลว",
+      "summary": "อัปโหลดเสร็จสิ้น: สำเร็จ {success}/{total} ไฟล์{failed}",
+      "errors": {
+        "selectAcademicYearDepartment": "กรุณาเลือกปีการศึกษาและหน่วยงานก่อนอัปโหลด"
+      },
+      "dropHere": "วางไฟล์ที่นี่",
+      "dragDropHere": "ลากและวางไฟล์ที่นี่",
+      "orClickBrowse": "หรือคลิกเพื่อเลือกไฟล์",
+      "browseFiles": "เลือกไฟล์",
+      "maximumFiles": "สูงสุด {maxFiles} ไฟล์",
+      "selectedFiles": "ไฟล์ที่เลือก",
+      "maxFilesError": "เลือกได้สูงสุด {maxFiles} ไฟล์",
+      "uploader": "ผู้อัปโหลดเอกสาร",
+      "selectAcademicYear": "เลือกปีการศึกษา",
+      "selectDepartment": "เลือกหน่วยงาน",
+      "descriptionPlaceholder": "เพิ่มรายละเอียดเกี่ยวกับเอกสาร...",
+      "sameMetadataInfo": "ไฟล์ที่เลือกทั้งหมดจะใช้ข้อมูลกำกับเดียวกัน",
+      "dropzone": {
+        "unknownFile": "ไฟล์ไม่ทราบชื่อ",
+        "rejected": "ถูกปฏิเสธ"
+      }
+    },
+    "history": {
+      "title": "ประวัติเอกสาร",
+      "subtitle": "ดูและดาวน์โหลดเอกสารที่อัปโหลดทั้งหมด",
+      "filters": "ตัวกรอง",
+      "documents": "เอกสาร",
+      "documentsFound": "เอกสาร",
+      "loadFailed": "ไม่สามารถโหลดเอกสารได้ กรุณาลองใหม่",
+      "searchPlaceholder": "ค้นหาชื่อ หน่วยงาน หรือรายละเอียด...",
+      "dateFrom": "วันที่เริ่มต้น",
+      "dateTo": "วันที่สิ้นสุด",
+      "sortBy": "เรียงตาม",
+      "sortOrder": "ลำดับ",
+      "lastModified": "แก้ไขล่าสุด",
+      "uploadDate": "วันที่อัปโหลด",
+      "fileName": "ชื่อไฟล์",
+      "fileSize": "ขนาดไฟล์",
+      "descending": "มากไปน้อย",
+      "ascending": "น้อยไปมาก",
+      "noDocuments": "ไม่พบเอกสาร",
+      "adjustFilters": "ลองปรับตัวกรองหรือคำค้นหา",
+      "document": "เอกสาร",
+      "uploaded": "อัปโหลด",
+      "documentDetails": "รายละเอียดเอกสาร",
+      "information": "ข้อมูล",
+      "timeline": "ไทม์ไลน์",
+      "confirmDelete": "ยืนยันลบเอกสารนี้หรือไม่? เอกสารจะถูกซ่อนจากระบบแต่ยังเก็บไว้ในที่จัดเก็บ",
+      "departmentOptions": {
+        "it": "ฝ่ายไอที",
+        "hr": "ฝ่ายทรัพยากรบุคคล",
+        "finance": "ฝ่ายการเงิน",
+        "operations": "ฝ่ายปฏิบัติการ",
+        "marketing": "ฝ่ายการตลาด",
+        "sales": "ฝ่ายขาย",
+        "legal": "ฝ่ายกฎหมาย",
+        "rd": "ฝ่ายวิจัยและพัฒนา"
+      }
+    },
+    "auth": {
+      "accessDenied": "ปฏิเสธการเข้าถึง",
+      "noPermissionPage": "คุณไม่มีสิทธิ์เข้าถึงหน้านี้",
+      "requiredRole": "บทบาทที่ต้องมี",
+      "yourRole": "บทบาทของคุณ",
+      "goToDashboard": "ไปที่แดชบอร์ด",
+      "permissionRequired": "ต้องการสิทธิ์เพิ่มเติม",
+      "noPermissionFeature": "คุณไม่มีสิทธิ์ที่จำเป็นสำหรับฟีเจอร์นี้",
+      "contactAdmin": "กรุณาติดต่อผู้ดูแลระบบ"
+    },
+    "login": {
+      "title": "AI DOES 📄",
+      "subtitle": "เข้าสู่ระบบด้วยบัญชี Microsoft 365",
+      "signingIn": "กำลังเข้าสู่ระบบ...",
+      "signInButton": "เข้าสู่ระบบด้วย Microsoft 365",
+      "secureAuthentication": "การยืนยันตัวตนอย่างปลอดภัย",
+      "authRequired": "จำเป็นต้องยืนยันตัวตน",
+      "authDescription": "ระบบนี้ใช้ Microsoft 365 สำหรับการยืนยันตัวตนอย่างปลอดภัย คุณจะถูกนำไปยังหน้าเข้าสู่ระบบของ Microsoft เพื่อเข้าใช้งานด้วยบัญชีองค์กร",
+      "errors": {
+        "signInMicrosoft": "ไม่สามารถเข้าสู่ระบบด้วย Microsoft 365 ได้ โปรดลองอีกครั้ง",
+        "unexpected": "เกิดข้อผิดพลาดที่ไม่คาดคิด โปรดลองอีกครั้ง"
+      },
+      "oauthErrors": {
+        "default": "เกิดข้อผิดพลาดระหว่างเข้าสู่ระบบ",
+        "session_expired": "เซสชันหมดอายุ กรุณาเข้าสู่ระบบใหม่",
+        "NON_STAFF_USER": "คุณไม่มีสิทธิ์เข้าใช้งานระบบ",
+        "NO_ACTIVE_ROLE": "คุณไม่มีสิทธิ์เข้าใช้งานระบบ"
+      },
+      "permissionDeniedTitle": "คุณไม่มีสิทธิ์เข้าใช้งานระบบ",
+      "permissionDeniedDescription": "กรุณาติดต่อกองบริการการศึกษา งานพัฒนาระบบสารสนเทศ"
+    },
+    "register": {
+      "title": "เริ่มต้นได้เลย 🚀",
+      "subtitle": "จัดการแอปของคุณให้ง่ายและสนุกยิ่งขึ้น",
+      "username": "ชื่อผู้ใช้",
+      "enterUsername": "กรอกชื่อผู้ใช้",
+      "agreeTo": "ฉันยอมรับ ",
+      "privacyTerms": "นโยบายความเป็นส่วนตัวและเงื่อนไข",
+      "signUp": "สมัครสมาชิก",
+      "alreadyHaveAccount": "มีบัญชีอยู่แล้ว?",
+      "signInInstead": "เข้าสู่ระบบแทน"
+    },
+    "forgotPassword": {
+      "title": "ลืมรหัสผ่าน 🔒",
+      "subtitle": "กรอกอีเมล แล้วเราจะส่งคำแนะนำการรีเซ็ตรหัสผ่านให้คุณ",
+      "sendResetLink": "ส่งลิงก์รีเซ็ตรหัสผ่าน",
+      "backToLogin": "กลับไปหน้าเข้าสู่ระบบ"
+    },
+    "notFound": {
+      "title": "ไม่พบหน้าที่ต้องการ ⚠️",
+      "description": "ไม่พบหน้าที่คุณกำลังค้นหา"
+    },
+    "notAuthorized": {
+      "title": "คุณไม่มีสิทธิ์เข้าถึง! 🔐",
+      "description": "คุณไม่มีสิทธิ์เข้าถึงหน้านี้ กลับหน้าแรก"
+    },
+    "comingSoon": {
+      "title": "เรากำลังจะเปิดตัวเร็ว ๆ นี้ 🚀",
+      "description": "เว็บไซต์ของเรากำลังจะเปิดใช้งาน กรุณาลงทะเบียนเพื่อรับการแจ้งเตือนเมื่อพร้อมใช้งาน",
+      "enterEmailOrUsername": "กรอกอีเมลหรือชื่อผู้ใช้",
+      "notify": "แจ้งเตือนฉัน"
+    },
+    "underMaintenance": {
+      "title": "ระบบอยู่ระหว่างปรับปรุง! 🚧",
+      "description": "ขออภัยในความไม่สะดวก ขณะนี้เรากำลังดำเนินการบำรุงรักษาระบบ"
+    },
+    "dashboard": {
+      "vsLastMonth": "เทียบกับเดือนที่แล้ว",
+      "totalDocuments": "เอกสารทั้งหมด",
+      "storageUsed": "พื้นที่ที่ใช้",
+      "thisMonth": "เดือนนี้",
+      "activeUsers": "ผู้ใช้ที่ใช้งาน",
+      "documentsUnit": "เอกสาร",
+      "documents": "เอกสาร",
+      "documentsByAcademicYear": "เอกสารตามปีการศึกษา",
+      "documentsByDepartment": "เอกสารตามแผนก",
+      "recentUploads": "อัปโหลดล่าสุด",
+      "file": "ไฟล์",
+      "department": "แผนก",
+      "uploadedBy": "ผู้อัปโหลด",
+      "time": "เวลา",
+      "size": "ขนาด",
+      "storageUsage": "การใช้งานพื้นที่จัดเก็บ",
+      "ofTotalUsed": "ใช้ไป {total} GB",
+      "images": "รูปภาพ",
+      "archives": "ไฟล์บีบอัด",
+      "storageAlmostFull": "⚠️ พื้นที่ใกล้เต็ม กรุณาลบไฟล์เก่าที่ไม่ใช้",
+      "storageHigh": "⚠️ การใช้งานพื้นที่สูง แนะนำให้จัดเก็บเอกสารเก่า",
+      "recentActivity": "กิจกรรมล่าสุด",
+      "relative": {
+        "justNow": "เมื่อสักครู่",
+        "minutesAgo": "{count} นาทีที่แล้ว",
+        "hoursAgo": "{count} ชั่วโมงที่แล้ว",
+        "daysAgo": "{count} วันที่แล้ว"
+      }
+    },
+    "admin": {
+      "common": {
+        "active": "ใช้งาน",
+        "inactive": "ไม่ใช้งาน",
+        "never": "ไม่เคย",
+        "unknown": "ไม่ทราบ",
+        "saving": "กำลังบันทึก...",
+        "succeeded": "สำเร็จ",
+        "failed": "ล้มเหลว"
+      },
+      "menus": {
+        "title": "จัดการเมนู",
+        "subheader": "จัดการเมนูนำทาง",
+        "add": "เพิ่มเมนู",
+        "addNew": "เพิ่มเมนูใหม่",
+        "edit": "แก้ไขเมนู",
+        "empty": "ไม่พบเมนู กด \"เพิ่มเมนู\" เพื่อสร้าง",
+        "confirmDelete": "คุณแน่ใจหรือไม่ว่าต้องการลบเมนูนี้?",
+        "root": "ไม่มี (ราก)",
+        "fields": {
+          "label": "ชื่อแสดง",
+          "icon": "ไอคอน (Iconify)",
+          "path": "พาธ (href)",
+          "parent": "เมนูแม่",
+          "order": "ลำดับ",
+          "requiredRole": "บทบาทที่ต้องมี"
+        },
+        "errors": {
+          "fetch": "ไม่สามารถโหลดเมนูได้",
+          "create": "ไม่สามารถสร้างเมนูได้",
+          "update": "ไม่สามารถอัปเดตเมนูได้",
+          "delete": "ไม่สามารถลบเมนูได้"
+        },
+        "dialogs": {
+          "addChildTitle": "เพิ่มเมนูย่อยให้ \"{title}\"",
+          "childInfo": "เมนูนี้จะถูกเพิ่มเป็นเมนูย่อยของ",
+          "preview": "ตัวอย่าง",
+          "empty": {
+            "title": "ยังไม่มีการตั้งค่าเมนู",
+            "subtitle": "คลิก \"เพิ่มเมนู\" เพื่อสร้างเมนูแรก"
+          },
+          "fields": {
+            "menuTitle": "ชื่อเมนู",
+            "iconOptional": "ไอคอน (ไม่บังคับ)",
+            "pathOptional": "เส้นทาง (ไม่บังคับ)",
+            "displayOrder": "ลำดับการแสดงผล",
+            "visibleForRoles": "แสดงสำหรับบทบาท"
+          },
+          "placeholders": {
+            "menuTitle": "เช่น แดชบอร์ด ผู้ใช้ การตั้งค่า",
+            "path": "/dashboard, /admin/users"
+          },
+          "helpers": {
+            "path": "เว้นว่างสำหรับเมนูแม่ที่ไม่มีลิงก์โดยตรง",
+            "displayOrder": "เลขน้อยจะแสดงก่อน"
+          },
+          "actions": {
+            "adding": "กำลังเพิ่ม...",
+            "addMenu": "เพิ่มเมนู",
+            "updating": "กำลังอัปเดต...",
+            "updateMenu": "อัปเดตเมนู",
+            "addChild": "เพิ่มเมนูย่อย"
+          },
+          "validation": {
+            "titleRequired": "กรุณากรอกชื่อ",
+            "roleRequired": "ต้องเลือกอย่างน้อยหนึ่งบทบาท"
+          },
+          "errors": {
+            "addFailed": "เพิ่มเมนูไม่สำเร็จ โปรดลองอีกครั้ง",
+            "updateFailed": "อัปเดตเมนูไม่สำเร็จ โปรดลองอีกครั้ง"
+          }
+        },
+        "placeholders": {
+          "icon": "tabler-dashboard",
+          "path": "/manage",
+          "requiredRole": "ADMIN หรือ STAFF"
+        }
+      },
+      "webhooks": {
+        "title": "การตั้งค่า Webhook",
+        "subheader": "จัดการการเชื่อมต่อ webhook ของ n8n",
+        "add": "เพิ่ม Webhook",
+        "addNew": "เพิ่ม Webhook ใหม่",
+        "edit": "แก้ไข Webhook",
+        "empty": "ยังไม่มีการตั้งค่า webhook กด \"เพิ่ม Webhook\" เพื่อสร้าง",
+        "confirmDelete": "คุณแน่ใจหรือไม่ว่าต้องการลบ webhook นี้?",
+        "webhookUrl": "Webhook URL",
+        "lastTriggered": "ทริกเกอร์ล่าสุด",
+        "test": "ทดสอบ",
+        "enabled": "เปิดใช้งาน",
+        "events": "เหตุการณ์ (คั่นด้วยจุลภาค)",
+        "eventsHelp": "เว้นว่างไว้เพื่อให้ทำงานทุกเหตุการณ์",
+        "departmentFixed": "ไม่สามารถเปลี่ยนหน่วยงานได้",
+        "departmentUnique": "หน่วยงานต้องไม่ซ้ำกัน",
+        "testResult": "ผลการทดสอบ Webhook",
+        "status": "สถานะ",
+        "errors": {
+          "fetch": "ไม่สามารถโหลด webhook ได้",
+          "save": "ไม่สามารถบันทึก webhook ได้",
+          "delete": "ไม่สามารถลบ webhook ได้",
+          "test": "ไม่สามารถทดสอบ webhook ได้"
+        },
+        "dialogs": {
+          "helpers": {
+            "url": "กรอก URL webhook ของ n8n"
+          },
+          "fields": {
+            "eventsToTrigger": "เหตุการณ์ที่ให้ทริกเกอร์",
+            "customHeaders": "เฮดเดอร์เพิ่มเติม"
+          },
+          "placeholders": {
+            "headerKey": "คีย์เฮดเดอร์",
+            "headerValue": "ค่าเฮดเดอร์"
+          },
+          "actions": {
+            "adding": "กำลังเพิ่ม...",
+            "updating": "กำลังอัปเดต...",
+            "updateWebhook": "อัปเดต Webhook",
+            "disable": "ปิดใช้งาน"
+          },
+          "validation": {
+            "departmentRequired": "กรุณาเลือกหน่วยงาน",
+            "urlRequired": "กรุณากรอก Webhook URL",
+            "urlInvalid": "รูปแบบ Webhook URL ไม่ถูกต้อง",
+            "eventRequired": "ต้องเลือกอย่างน้อยหนึ่งเหตุการณ์"
+          },
+          "errors": {
+            "addFailed": "เพิ่ม webhook ไม่สำเร็จ โปรดลองอีกครั้ง",
+            "updateFailed": "อัปเดต webhook ไม่สำเร็จ โปรดลองอีกครั้ง"
+          },
+          "empty": {
+            "title": "ยังไม่มีการตั้งค่า webhook",
+            "subtitle": "คลิก \"เพิ่ม Webhook\" เพื่อสร้าง webhook แรก"
+          },
+          "status": {
+            "disabled": "ปิดใช้งาน"
+          },
+          "test": {
+            "webhookInformation": "ข้อมูล Webhook",
+            "payload": "Payload ทดสอบ",
+            "successMessage": "ทดสอบ webhook สำเร็จ! ปลายทางตอบกลับถูกต้อง",
+            "failMessage": "ทดสอบ webhook ไม่สำเร็จ ปลายทางไม่ตอบกลับหรือเกิดข้อผิดพลาด",
+            "errorMessage": "ไม่สามารถทดสอบ webhook ได้ กรุณาตรวจสอบการเชื่อมต่อแล้วลองใหม่",
+            "statusCode": "Status Code",
+            "responseTime": "เวลาตอบสนอง",
+            "testing": "กำลังทดสอบการเชื่อมต่อ webhook...",
+            "testingShort": "กำลังทดสอบ...",
+            "runTest": "เริ่มทดสอบ"
+          }
+        },
+        "placeholders": {
+          "url": "https://n8n.example.com/webhook/...",
+          "events": "DOCUMENT_UPLOAD, DOCUMENT_UPDATE"
+        }
+      },
+      "logs": {
+        "title": "บันทึกกิจกรรม",
+        "subheader": "ดูการใช้งานระบบและการกระทำของผู้ใช้",
+        "action": "การกระทำ",
+        "resource": "ทรัพยากร",
+        "userId": "รหัสผู้ใช้",
+        "userIdPlaceholder": "กรองตามรหัสผู้ใช้",
+        "timestamp": "เวลา",
+        "resourceId": "รหัสทรัพยากร",
+        "ipAddress": "IP Address",
+        "details": "รายละเอียด",
+        "showDetails": "แสดงรายละเอียด",
+        "hideDetails": "ซ่อนรายละเอียด",
+        "noDetails": "ไม่มีรายละเอียด",
+        "rawJson": "Raw JSON",
+        "empty": "ไม่พบบันทึกกิจกรรม",
+        "errors": {
+          "fetch": "ไม่สามารถโหลดบันทึกกิจกรรมได้"
+        },
+        "dialogs": {
+          "detailTitle": "รายละเอียดบันทึกกิจกรรม",
+          "userInformation": "ข้อมูลผู้ใช้",
+          "resourceInformation": "ข้อมูลทรัพยากร",
+          "resourceType": "ประเภททรัพยากร",
+          "notAvailable": "ไม่มี",
+          "userAgent": "User Agent"
+        },
+        "filters": {
+          "searchPlaceholder": "ค้นหาตามผู้ใช้ การกระทำ หรือทรัพยากร...",
+          "allActions": "ทุกการกระทำ",
+          "allResources": "ทุกทรัพยากร",
+          "userName": "ชื่อผู้ใช้",
+          "newestFirst": "ใหม่สุดก่อน",
+          "oldestFirst": "เก่าสุดก่อน"
+        },
+        "table": {
+          "emptyTitle": "ไม่พบบันทึก",
+          "emptySubtitle": "ลองปรับตัวกรองหรือเงื่อนไขการค้นหา"
+        }
+      },
+      "academicYears": {
+        "title": "จัดการปีการศึกษา",
+        "add": "เพิ่มปีการศึกษา",
+        "create": "สร้างปีการศึกษา",
+        "edit": "แก้ไขปีการศึกษา",
+        "year": "ปีการศึกษา",
+        "start": "เริ่มต้น",
+        "end": "สิ้นสุด",
+        "startDate": "วันที่เริ่มต้น",
+        "endDate": "วันที่สิ้นสุด",
+        "lock": "ล็อก",
+        "locked": "ล็อกแล้ว",
+        "unlocked": "ปลดล็อก",
+        "activate": "เปิดใช้งาน",
+        "deactivate": "ปิดใช้งาน",
+        "empty": "ไม่พบปีการศึกษา",
+        "confirmDelete": "ลบปีการศึกษา",
+        "errors": {
+          "fetch": "ไม่สามารถโหลดปีการศึกษาได้",
+          "required": "ต้องระบุปีการศึกษาและรายละเอียด",
+          "save": "ไม่สามารถบันทึกปีการศึกษาได้",
+          "delete": "ไม่สามารถลบปีการศึกษาได้",
+          "toggle": "ไม่สามารถเปลี่ยนสถานะปีการศึกษาได้",
+          "lockedDelete": "ไม่สามารถลบปีการศึกษาที่ถูกล็อก",
+          "lockedToggle": "ไม่สามารถเปลี่ยนสถานะปีการศึกษาที่ถูกล็อก"
+        }
+      },
+      "users": {
+        "title": "จัดการผู้ใช้",
+        "subheader": "จัดการบทบาทและสิทธิ์ผู้ใช้",
+        "users": "ผู้ใช้",
+        "usersFound": "รายการ",
+        "searchPlaceholder": "ค้นหาด้วยอีเมล ชื่อ หน่วยงาน หรือบทบาท...",
+        "currentRole": "บทบาทปัจจุบัน",
+        "lastLogin": "เข้าสู่ระบบล่าสุด",
+        "empty": "ไม่พบผู้ใช้",
+        "adjustSearch": "ลองปรับคำค้นหา",
+        "noRole": "ไม่มีบทบาท",
+        "switchRole": "สลับบทบาท",
+        "switchUserRole": "สลับบทบาทผู้ใช้",
+        "switching": "กำลังสลับ...",
+        "switchWarning": "การสลับบทบาทจะลบบทบาทปัจจุบันทั้งหมดและกำหนดบทบาทใหม่ ผู้ใช้ต้องเข้าสู่ระบบใหม่เพื่อให้มีผลสมบูรณ์",
+        "selectNewRole": "เลือกบทบาทใหม่",
+        "fullSystemAccess": "เข้าถึงระบบทั้งหมด",
+        "standardUserAccess": "สิทธิ์ผู้ใช้ทั่วไป",
+        "accessControl": "ควบคุมการเข้าถึง",
+        "accessSubheader": "เพิ่มอีเมลที่อนุญาตและบทบาท (จับคู่กับ userPrincipalName)",
+        "role": "บทบาท",
+        "addAccess": "เพิ่มสิทธิ์",
+        "loadingAccess": "กำลังโหลดรายการสิทธิ์...",
+        "noAccessEntries": "ยังไม่มีรายการสิทธิ์",
+        "roleLabel": "บทบาท",
+        "activate": "เปิดใช้งาน",
+        "deactivate": "ปิดใช้งาน",
+        "accessAdded": "เพิ่มสิทธิ์แล้ว",
+        "accessUpdated": "อัปเดตสิทธิ์แล้ว",
+        "roleSwitched": "สลับบทบาทสำเร็จ",
+        "errors": {
+          "fetchUsers": "ไม่สามารถโหลดผู้ใช้ได้",
+          "fetchAccess": "ไม่สามารถโหลดรายการสิทธิ์ได้",
+          "addAccess": "ไม่สามารถเพิ่มสิทธิ์ได้",
+          "updateAccess": "ไม่สามารถอัปเดตสิทธิ์ได้",
+          "switchRole": "ไม่สามารถสลับบทบาทได้"
+        },
+        "dialogs": {
+          "addTitle": "เพิ่มผู้ใช้ใหม่",
+          "editTitle": "แก้ไขผู้ใช้",
+          "fields": {
+            "emailAddress": "อีเมล",
+            "fullName": "ชื่อ-นามสกุล",
+            "permissions": "สิทธิ์",
+            "menuAccess": "สิทธิ์เมนู"
+          },
+          "helpers": {
+            "signInEmail": "ผู้ใช้จะลงชื่อเข้าใช้ด้วย Microsoft 365 ผ่านอีเมลนี้",
+            "emailReadonly": "ไม่สามารถเปลี่ยนอีเมลได้"
+          },
+          "permissions": {
+            "canUpload": "สามารถอัปโหลดเอกสาร",
+            "canEdit": "สามารถแก้ไขเอกสาร",
+            "canDelete": "สามารถลบเอกสาร",
+            "canViewLogs": "สามารถดูบันทึกกิจกรรม",
+            "canManageUsers": "สามารถจัดการผู้ใช้",
+            "canManageMenus": "สามารถจัดการเมนู",
+            "canConfigureWebhooks": "สามารถตั้งค่า Webhooks"
+          },
+          "menus": {
+            "dashboard": "แดชบอร์ด",
+            "upload": "อัปโหลด",
+            "edit": "แก้ไข",
+            "history": "ประวัติ",
+            "users": "ผู้ใช้",
+            "menus": "เมนู",
+            "logs": "บันทึก",
+            "webhooks": "Webhooks"
+          },
+          "validation": {
+            "emailRequired": "กรุณากรอกอีเมล",
+            "emailInvalid": "รูปแบบอีเมลไม่ถูกต้อง",
+            "nameRequired": "กรุณากรอกชื่อ",
+            "menuRequired": "ต้องเลือกอย่างน้อยหนึ่งเมนู"
+          },
+          "errors": {
+            "addFailed": "เพิ่มผู้ใช้ไม่สำเร็จ โปรดลองอีกครั้ง",
+            "updateFailed": "อัปเดตผู้ใช้ไม่สำเร็จ โปรดลองอีกครั้ง"
+          },
+          "actions": {
+            "adding": "กำลังเพิ่ม...",
+            "addUser": "เพิ่มผู้ใช้",
+            "updating": "กำลังอัปเดต...",
+            "updateUser": "อัปเดตผู้ใช้"
+          },
+          "placeholders": {
+            "emailExample": "user@organization.com",
+            "fullNameExample": "สมชาย ใจดี"
+          }
+        },
+        "accessEmailPlaceholder": "เช่น 65021262 หรือ 65021262@up.ac.th"
+      },
+      "reviewQueue": {
+        "title": "คิวตรวจทานเกณฑ์คุณสมบัติ",
+        "subheader": "เอกสารที่ระบบ parse ตารางเกณฑ์แล้วไม่มั่นใจ ควรตรวจทานก่อนใช้งาน",
+        "empty": "ไม่มีเอกสารค้างตรวจทานในคิว 🎉",
+        "searchLabel": "ค้นหาในคิวตรวจทาน",
+        "searchPlaceholder": "ค้นจากชื่อไฟล์ / ชื่อเอกสาร / conversionId",
+        "searchNoMatch": "ไม่พบรายการที่ตรงกับคำค้นหา",
+        "noMin": "ไม่กำหนด",
+        "noMinGpaRule": "ไม่กำหนดเกรดขั้นต่ำ",
+        "columns": {
+          "document": "เอกสาร",
+          "eligibilityRows": "จำนวนแถวเกณฑ์",
+          "preview": "ตัวอย่าง",
+          "chunks": "ชังก์",
+          "reason": "สาเหตุ",
+          "updated": "อัปเดตล่าสุด"
+        },
+        "actions": {
+          "audit": "ตรวจประวัติ",
+          "editRows": "แก้ไขแถว",
+          "queueing": "กำลังเข้าคิว...",
+          "reconvert": "แปลงใหม่",
+          "resolving": "กำลังปิดงาน...",
+          "markResolved": "ทำเครื่องหมายว่าแก้แล้ว"
+        },
+        "errors": {
+          "loadQueue": "โหลดคิวตรวจทานไม่สำเร็จ",
+          "resolve": "ปิดรายการในคิวไม่สำเร็จ",
+          "requeue": "นำรายการกลับเข้าคิวไม่สำเร็จ",
+          "loadRows": "โหลดแถวเกณฑ์ไม่สำเร็จ",
+          "requireProgramName": "ต้องมีอย่างน้อย 1 แถวที่มีชื่อหลักสูตร",
+          "saveRows": "บันทึกแถวเกณฑ์ไม่สำเร็จ",
+          "loadAudit": "โหลดประวัติการแก้ไขไม่สำเร็จ"
+        },
+        "editor": {
+          "title": "แก้ไขแถวเกณฑ์คุณสมบัติ — {title}",
+          "added": "เพิ่ม {count}",
+          "updated": "แก้ไข {count}",
+          "removed": "ลบ {count}",
+          "fields": {
+            "code": "รหัส",
+            "faculty": "คณะ",
+            "programName": "ชื่อหลักสูตร",
+            "minGpa": "เกรดขั้นต่ำ",
+            "noMin": "ไม่กำหนดขั้นต่ำ"
+          },
+          "remove": "ลบ",
+          "addRow": "เพิ่มแถว",
+          "saveResolve": "บันทึกและปิดงาน"
+        },
+        "audit": {
+          "title": "ประวัติการตรวจสอบ — {conversionId}",
+          "empty": "ยังไม่มีประวัติการแก้ไข",
+          "filterStatus": "กรองสถานะ",
+          "exportCsv": "ส่งออก CSV",
+          "exportJson": "ส่งออก JSON",
+          "action": "การกระทำ",
+          "beforeCount": "ก่อนหน้า {count}",
+          "afterCount": "หลังแก้ {count}",
+          "columns": {
+            "program": "หลักสูตร",
+            "before": "ก่อน",
+            "after": "หลัง"
+          },
+          "noDiffSample": "ไม่มีตัวอย่างความต่างระดับแถว"
+        }
+      }
+    },
+    "edit": {
+      "title": "แก้ไขเอกสาร",
+      "subtitle": "เลือกเอกสารเพื่อแก้ไขข้อมูลหรือแทนที่ไฟล์",
+      "searchPlaceholder": "ค้นหาจากชื่อไฟล์ หน่วยงาน ปีการศึกษา หรือรายละเอียด...",
+      "documentList": "รายการเอกสาร",
+      "editableDocumentsFound": "พบเอกสารที่แก้ไขได้ {total} รายการ",
+      "previous": "ก่อนหน้า",
+      "next": "ถัดไป",
+      "pageOf": "หน้า {page} จาก {totalPages}",
+      "noDocuments": "ไม่พบเอกสาร",
+      "adjustSearch": "ลองปรับคำค้นหาหรือเงื่อนไขการค้นหา",
+      "editsMade": "แก้ไขแล้ว {count} ครั้ง",
+      "editCount": "{count} ครั้ง",
+      "table": {
+        "document": "เอกสาร",
+        "size": "ขนาด",
+        "edits": "จำนวนแก้ไข",
+        "lastModified": "แก้ไขล่าสุด"
+      },
+      "dialog": {
+        "title": "แก้ไขเอกสาร",
+        "tabs": {
+          "editInfo": "แก้ไขข้อมูล",
+          "replaceFile": "เปลี่ยนไฟล์",
+          "versionHistory": "ประวัติเวอร์ชัน"
+        },
+        "editedTimes": "แก้ไขแล้ว {count} ครั้ง",
+        "fields": {
+          "title": "ชื่อเอกสาร",
+          "changeNote": "เหตุผลในการแก้ไข",
+          "replaceReason": "เหตุผลในการเปลี่ยนไฟล์"
+        },
+        "placeholders": {
+          "changeNote": "อธิบายการเปลี่ยนแปลงที่ทำ...",
+          "replaceReason": "อธิบายเหตุผลในการเปลี่ยนไฟล์..."
+        },
+        "helpers": {
+          "changeNoteRequired": "จำเป็น: อธิบายการเปลี่ยนแปลงที่ทำ",
+          "replaceReasonRequired": "จำเป็น: อธิบายเหตุผลในการเปลี่ยนไฟล์"
+        },
+        "validation": {
+          "changeNoteRequired": "กรุณาระบุเหตุผลในการแก้ไข",
+          "fileSize": "ขนาดไฟล์ต้องไม่เกิน 50MB"
+        },
+        "errors": {
+          "saveFailed": "ไม่สามารถบันทึกการเปลี่ยนแปลงได้ กรุณาลองใหม่อีกครั้ง"
+        },
+        "replaceWarning": "การเปลี่ยนไฟล์จะสร้างเวอร์ชันใหม่",
+        "currentFile": "ไฟล์ปัจจุบัน",
+        "newFile": "ไฟล์ใหม่",
+        "chooseFile": "เลือกไฟล์",
+        "versionHistoryInfo": "ประวัติเวอร์ชันจะแสดงที่นี่",
+        "currentVersion": "ปัจจุบัน",
+        "versionLabel": "เวอร์ชัน {version}",
+        "opening": "กำลังเปิด...",
+        "saving": "กำลังบันทึก...",
+        "saveChanges": "บันทึกการเปลี่ยนแปลง"
+      },
+      "alerts": {
+        "deleteSheetsSyncFailedTitle": "ลบเอกสารจากระบบหลักสำเร็จ แต่ลบข้อมูลใน Google Sheets ไม่สำเร็จ",
+        "deleteFailedTitle": "ลบเอกสารไม่สำเร็จ",
+        "unknownError": "ข้อผิดพลาดที่ไม่ทราบสาเหตุ",
+        "updateSheetsSyncFailedTitle": "อัปเดตเอกสารสำเร็จ แต่เคลียร์ข้อมูลเก่าใน Google Sheets ไม่สำเร็จ",
+        "requeueConversionFailedTitle": "อัปเดตเอกสารสำเร็จ แต่สั่งคิวแปลงเอกสารใหม่ไม่สำเร็จ"
+      }
+    },
+    "authTemplates": {
+      "welcome": "ยินดีต้อนรับสู่ {name}! 👋🏻",
+      "signInAdventure": "กรุณาเข้าสู่ระบบบัญชีของคุณเพื่อเริ่มต้นใช้งาน",
+      "emailOrUsername": "อีเมลหรือชื่อผู้ใช้",
+      "enterEmailOrUsername": "กรอกอีเมลหรือชื่อผู้ใช้",
+      "rememberMe": "จดจำฉัน",
+      "forgotPasswordQ": "ลืมรหัสผ่าน?",
+      "login": "เข้าสู่ระบบ",
+      "newOnPlatform": "เพิ่งใช้งานแพลตฟอร์มของเราใช่ไหม?",
+      "createAccount": "สร้างบัญชี",
+      "resetPasswordSubtitle": "รหัสผ่านใหม่ต้องแตกต่างจากรหัสผ่านที่เคยใช้",
+      "newPassword": "รหัสผ่านใหม่",
+      "confirmPassword": "ยืนยันรหัสผ่าน",
+      "setNewPassword": "ตั้งรหัสผ่านใหม่",
+      "twoStepTitle": "การยืนยันตัวตนแบบสองขั้นตอน 💬",
+      "twoStepDesc": "เราได้ส่งรหัสยืนยันไปยังมือถือของคุณ กรุณากรอกรหัสด้านล่าง",
+      "securityCodePrompt": "พิมพ์รหัสความปลอดภัย 6 หลัก",
+      "verifyAccount": "ยืนยันบัญชีของฉัน",
+      "didntGetCode": "ยังไม่ได้รับรหัสใช่ไหม?",
+      "resend": "ส่งอีกครั้ง",
+      "verifyEmailTitle": "ยืนยันอีเมลของคุณ ✉️",
+      "verifyEmailDesc": "เราได้ส่งลิงก์เปิดใช้งานบัญชีไปยังอีเมลของคุณ: {email} กรุณาคลิกลิงก์เพื่อดำเนินการต่อ",
+      "skipForNow": "ข้ามไปก่อน",
+      "didntGetMail": "ยังไม่ได้รับอีเมลใช่ไหม?",
+      "accountInfo": "ข้อมูลบัญชี",
+      "enterAccountDetails": "กรอกข้อมูลบัญชีของคุณ",
+      "profileLink": "ลิงก์โปรไฟล์",
+      "previous": "ก่อนหน้า",
+      "next": "ถัดไป",
+      "personalInfo": "ข้อมูลส่วนบุคคล",
+      "enterPersonalInfo": "กรอกข้อมูลส่วนบุคคลของคุณ",
+      "firstName": "ชื่อ",
+      "lastName": "นามสกุล",
+      "pinCode": "รหัสไปรษณีย์",
+      "address": "ที่อยู่",
+      "landmark": "จุดสังเกต",
+      "state": "รัฐ/จังหวัด",
+      "selectPlan": "เลือกแพ็กเกจ",
+      "selectPlanRequirement": "เลือกแพ็กเกจตามความต้องการของคุณ",
+      "paymentInfo": "ข้อมูลการชำระเงิน",
+      "enterCardInfo": "กรอกข้อมูลบัตรของคุณ",
+      "cardNumber": "หมายเลขบัตร",
+      "nameOnCard": "ชื่อบนบัตร",
+      "expiryDate": "วันหมดอายุ",
+      "cvvCode": "รหัส CVV",
+      "submit": "ส่งข้อมูล",
+      "submitted": "ส่งข้อมูลแล้ว..!!",
+      "stepAccount": "บัญชี",
+      "stepAccountSubtitle": "กรอกข้อมูลบัญชีของคุณ",
+      "stepPersonal": "ส่วนตัว",
+      "stepPersonalSubtitle": "ตั้งค่าข้อมูล",
+      "stepBilling": "การเรียกเก็บเงิน",
+      "stepBillingSubtitle": "เพิ่มลิงก์โซเชียล",
+      "city": "เมือง",
+      "mobile": "มือถือ",
+      "countryCodeUS": "US (+1)",
+      "stateNewYork": "นิวยอร์ก",
+      "stateCalifornia": "แคลิฟอร์เนีย",
+      "stateTexas": "เท็กซัส",
+      "stateFlorida": "ฟลอริดา",
+      "stateWashington": "วอชิงตัน",
+      "planBasic": "พื้นฐาน",
+      "planBasicDescription": "เริ่มต้นง่าย ๆ สำหรับสตาร์ทอัพและนักศึกษา",
+      "planStandard": "มาตรฐาน",
+      "planStandardDescription": "เหมาะสำหรับธุรกิจขนาดเล็กถึงขนาดกลาง",
+      "planEnterprise": "องค์กร",
+      "planEnterpriseDescription": "โซลูชันสำหรับองค์กรและหน่วยงาน",
+      "perMonth": "/เดือน"
+    },
+    "frontPagesShared": {
+      "home": "หน้าแรก",
+      "features": "ฟีเจอร์",
+      "team": "ทีม",
+      "faq": "คำถามที่พบบ่อย",
+      "contactUs": "ติดต่อเรา",
+      "pages": "หน้า",
+      "page": "หน้า",
+      "authDemo": "ตัวอย่างการยืนยันตัวตน",
+      "admin": "ผู้ดูแลระบบ",
+      "helpCenter": "ศูนย์ช่วยเหลือ",
+      "dropdownImageAlt": "ภาพเมนูดรอปดาวน์",
+      "header": {
+        "purchaseNow": "ซื้อเลย"
+      },
+      "footer": {
+        "backgroundAlt": "พื้นหลังส่วนท้าย",
+        "description": "เทมเพลตแอดมิน React NextJS ที่ทรงพลังและครบถ้วน พร้อมดีไซน์ Material ที่สวยงามและเลย์เอาต์ที่โดดเด่น",
+        "subscribeLabel": "สมัครรับจดหมายข่าว",
+        "emailPlaceholder": "อีเมลของคุณ",
+        "subscribe": "สมัคร",
+        "pagesTitle": "หน้า",
+        "pricing": "ราคา",
+        "payment": "การชำระเงิน",
+        "new": "ใหม่",
+        "maintenance": "บำรุงรักษา",
+        "comingSoon": "เร็ว ๆ นี้",
+        "productsTitle": "ผลิตภัณฑ์",
+        "pageBuilder": "ตัวสร้างหน้า",
+        "adminDashboards": "แดชบอร์ดผู้ดูแล",
+        "uiKits": "UI Kits",
+        "illustrations": "ภาพประกอบ",
+        "downloadApp": "ดาวน์โหลดแอปของเรา",
+        "appleStoreAlt": "แอปเปิลสโตร์",
+        "googlePlayAlt": "กูเกิลเพลย์",
+        "downloadOnThe": "ดาวน์โหลดบน",
+        "appStore": "App Store",
+        "googlePlay": "Google Play",
+        "madeWith": "สร้างด้วย",
+        "by": "โดย"
+      }
+    },
+    "chat": {
+      "page": {
+        "title": "กองบริการการศึกษา",
+        "subtitle": "Ai ใช้สำหรับถามตอบข้อมูลทางการศึกษา กองบริการการศึกษามหาวิทยาลัยพะเยา",
+        "sectionTitle": "Ai Does",
+        "usernameRequired": "กรุณากรอกชื่อผู้ใช้ก่อนเริ่มแชต"
+      },
+      "username": {
+        "title": "ผู้ใช้งาน",
+        "subtitle": "ชื่อจะถูกจำไว้ในเครื่องนี้",
+        "label": "ชื่อผู้ใช้",
+        "placeholder": "เช่น Anming",
+        "confirm": "ยืนยันชื่อ",
+        "activeAs": "กำลังใช้งานเป็น: {username}"
+      },
+      "messages": {
+        "readyTitle": "พร้อมตอบคำถาม",
+        "readySubtitle": "พิมพ์คำถามด้านล่างเพื่อเริ่มใช้งาน"
+      },
+      "composer": {
+        "label": "พิมพ์คำถาม (กด Enter เพื่อส่ง, Shift+Enter เพื่อขึ้นบรรทัดใหม่)",
+        "send": "ส่ง"
+      },
+      "errors": {
+        "emptyResponse": "ได้รับคำถามแล้ว แต่ระบบไม่ส่งข้อความตอบกลับ",
+        "unknown": "เกิดข้อผิดพลาดไม่ทราบสาเหตุ"
+      }
+    },
+    "layout": {
+      "mode": {
+        "light": "สว่าง",
+        "dark": "มืด",
+        "system": "ตามระบบ"
+      },
+      "notifications": {
+        "title": "การแจ้งเตือน",
+        "newCount": "ใหม่ {count}",
+        "markAllUnread": "ทำเครื่องหมายทั้งหมดเป็นยังไม่อ่าน",
+        "markAllRead": "ทำเครื่องหมายทั้งหมดว่าอ่านแล้ว",
+        "viewAll": "ดูการแจ้งเตือนทั้งหมด"
+      },
+      "shortcuts": {
+        "title": "ทางลัด",
+        "addShortcut": "เพิ่มทางลัด"
+      },
+      "user": {
+        "userIdNotFound": "ไม่พบรหัสผู้ใช้ กรุณาออกจากระบบและเข้าสู่ระบบใหม่",
+        "roleNotFound": "ไม่พบบทบาทในระบบ",
+        "roleSwitched": "สลับบทบาทเป็น {role} แล้ว",
+        "switchRoleFailed": "สลับบทบาทไม่สำเร็จ",
+        "myProfile": "โปรไฟล์ของฉัน",
+        "settings": "การตั้งค่า",
+        "pricing": "ราคา",
+        "faq": "คำถามที่พบบ่อย",
+        "switchRole": "สลับบทบาท",
+        "switchTo": "ไปที่: {role}",
+        "logout": "ออกจากระบบ",
+        "switchRoleWarning": "คุณจะถูกออกจากระบบหลังสลับบทบาท กรุณาเข้าสู่ระบบใหม่เพื่อให้การเปลี่ยนแปลงมีผล",
+        "unknown": "ไม่ทราบชื่อ",
+        "current": "ปัจจุบัน",
+        "selectNewRole": "เลือกบทบาทใหม่",
+        "fullSystemAccess": "สิทธิ์เข้าถึงระบบทั้งหมด",
+        "standardUserAccess": "สิทธิ์ผู้ใช้งานมาตรฐาน",
+        "switching": "กำลังสลับ..."
+      }
+    },
+    "search": {
+      "trigger": "ค้นหา",
+      "inputPlaceholder": "ค้นหา...",
+      "escKey": "esc",
+      "noResultFor": "ไม่พบผลลัพธ์สำหรับ \"{query}\"",
+      "trySearchingFor": "ลองค้นหา",
+      "footer": {
+        "toNavigate": "เพื่อเลื่อนเลือก",
+        "toOpen": "เพื่อเปิด",
+        "toClose": "เพื่อปิด"
+      },
+      "sections": {
+        "popularSearches": "ค้นหายอดนิยม",
+        "apps": "แอป",
+        "pages": "หน้า",
+        "formsCharts": "ฟอร์มและกราฟ"
+      },
+      "items": {
+        "analytics": "การวิเคราะห์",
+        "crm": "CRM",
+        "ecommerce": "อีคอมเมิร์ซ",
+        "userList": "รายชื่อผู้ใช้",
+        "calendar": "ปฏิทิน",
+        "invoiceList": "รายการใบแจ้งหนี้",
+        "rolesPermissions": "บทบาทและสิทธิ์",
+        "userProfile": "โปรไฟล์ผู้ใช้",
+        "accountSettings": "ตั้งค่าบัญชี",
+        "pricing": "ราคา",
+        "faq": "คำถามที่พบบ่อย",
+        "formLayouts": "รูปแบบฟอร์ม",
+        "formValidation": "การตรวจสอบฟอร์ม",
+        "formWizard": "ตัวช่วยฟอร์ม",
+        "apexCharts": "กราฟ Apex"
+      }
+    },
+    "api": {
+      "unauthorized": "ไม่ได้รับอนุญาต",
+      "internalServerError": "เกิดข้อผิดพลาดภายในเซิร์ฟเวอร์",
+      "backendTokenNotFound": "ไม่พบโทเค็นสำหรับเชื่อมต่อระบบหลังบ้าน",
+      "backendApiError": "ระบบหลังบ้านเกิดข้อผิดพลาด",
+      "backendUploadError": "ระบบหลังบ้านเกิดข้อผิดพลาดระหว่างอัปโหลด",
+      "backendUpdateError": "ระบบหลังบ้านเกิดข้อผิดพลาดระหว่างอัปเดต",
+      "backendDeleteError": "ระบบหลังบ้านเกิดข้อผิดพลาดระหว่างลบ",
+      "deprecatedEndpoint": "เลิกใช้งานปลายทางนี้แล้ว",
+      "templateRouteDisabled": "ปิดการใช้งานเส้นทาง API ตัวอย่างในระบบจริง",
+      "useNextAuthLogin": "กรุณาใช้ขั้นตอนล็อกอิน NextAuth ที่ /api/auth/[...nextauth] แทน",
+      "useDocumentsUpload": "กรุณาใช้ /api/documents/upload แทน",
+      "notImplemented": "ยังไม่รองรับการทำงานนี้",
+      "userCreationViaRoleAccess": "การสร้างผู้ใช้ต้องทำผ่านปลายทาง role/access ของ DMFAPI",
+      "userUpdatesViaRoleAccess": "การแก้ไขผู้ใช้ต้องทำผ่านปลายทาง role/access ของ DMFAPI",
+      "userDeletionViaRoleAccess": "การลบผู้ใช้ต้องทำผ่านปลายทาง role/access ของ DMFAPI",
+      "chatbotBackendError": "ระบบตอบคำถามฝั่งหลังบ้านขัดข้อง",
+      "chatbotUnavailable": "ไม่สามารถเชื่อมต่อระบบตอบคำถามได้",
+      "uploadTimedOut": "หมดเวลาระหว่างเชื่อมต่อระบบหลังบ้านเพื่ออัปโหลด",
+      "uploadFailed": "อัปโหลดไม่สำเร็จ"
+    },
+    "frontPages": {
+      "pricing": {
+        "freeTrial": {
+          "title": "ยังตัดสินใจไม่ได้ใช่ไหม? เริ่มทดลองใช้ฟรี 14 วัน!",
+          "subtitle": "คุณจะเข้าถึงฟีเจอร์ทั้งหมดได้เต็มรูปแบบเป็นเวลา 14 วัน",
+          "cta": "เริ่มทดลองใช้ฟรี 14 วัน",
+          "imageAlt": "ผู้หญิงกับแล็ปท็อป"
+        },
+        "plans": {
+          "title": "เลือกแพ็กเกจที่เหมาะกับคุณที่สุด",
+          "subtitle": "สบายใจได้ เรามีการรับประกันคืนเงินภายใน 48 ชั่วโมง!",
+          "choosePlan": "เลือกแพ็กเกจ",
+          "addOnAvailable": "มี Add-on",
+          "features": [
+            "ทดลองใช้ฟรี 14 วัน",
+            "ไม่จำกัดจำนวนผู้ใช้",
+            "รองรับสินค้า",
+            "รองรับอีเมล",
+            "การเชื่อมต่อระบบ",
+            "ลบตราแบรนด์ Front",
+            "บำรุงรักษาและซัพพอร์ตต่อเนื่อง",
+            "เก็บข้อมูลได้ 365 วัน"
+          ],
+          "table": {
+            "featuresLabel": "ฟีเจอร์",
+            "featuresSubLabel": "ฟีเจอร์หลักของ Front",
+            "starterLabel": "เริ่มต้น",
+            "starterPrice": "ฟรี",
+            "proLabel": "โปร",
+            "proPrice": "$7.5/เดือน",
+            "enterpriseLabel": "องค์กร",
+            "enterprisePrice": "$16/เดือน"
+          }
+        },
+        "faq": {
+          "title": "คำถามที่พบบ่อย",
+          "subtitle": "ให้เราช่วยตอบคำถามที่พบบ่อยที่สุด",
+          "items": [
+            {
+              "question": "อะไรบ้างที่ถูกนับในลิมิต 100 responses?",
+              "answer": "เรานับทุก response ที่ส่งผ่านแบบฟอร์มทั้งหมดในแต่ละเดือน หากเดือนนี้ครบ 100 responses แล้ว คุณจะไม่สามารถรับ response เพิ่มได้จนกว่าจะขึ้นเดือนใหม่และรีเซ็ตตัวนับ"
+            },
+            {
+              "question": "ระบบประมวลผลการชำระเงินอย่างไร?",
+              "answer": "เรารับบัตร Visa®, MasterCard®, American Express® และ PayPal® ดังนั้นคุณจึงมั่นใจได้ว่าข้อมูลบัตรเครดิตของคุณจะถูกเก็บอย่างปลอดภัย"
+            },
+            {
+              "question": "รองรับการชำระเงินแบบใดบ้าง?",
+              "answer": "2Checkout รองรับบัตรเครดิตและบัตรเดบิตทุกประเภท"
+            },
+            {
+              "question": "มีการรับประกันคืนเงินหรือไม่?",
+              "answer": "มี คุณสามารถขอคืนเงินได้ภายใน 30 วันหลังการซื้อ โดยไม่ต้องให้เหตุผลเพิ่มเติม"
+            },
+            {
+              "question": "ฉันมีคำถามเพิ่มเติม ควรขอความช่วยเหลือที่ไหน?",
+              "answer": "โปรดติดต่อเรา หากคุณมีคำถามหรือข้อกังวลเพิ่มเติม เรายินดีช่วยเหลือเสมอ!"
+            }
+          ]
+        }
+      },
+      "payment": {
+        "methods": {
+          "creditCard": "บัตรเครดิต",
+          "creditCardAlt": "บัตรเครดิต",
+          "paypal": "เพย์พาล",
+          "paypalAlt": "เพย์พาล"
+        },
+        "countries": {
+          "australia": "ออสเตรเลีย",
+          "brazil": "บราซิล",
+          "canada": "แคนาดา",
+          "india": "อินเดีย",
+          "unitedArabEmirates": "สหรัฐอาหรับเอมิเรตส์",
+          "unitedKingdom": "สหราชอาณาจักร",
+          "unitedStates": "สหรัฐอเมริกา"
+        },
+        "checkout": {
+          "title": "ชำระเงิน",
+          "subtitle": "ทุกแพ็กเกจมีเครื่องมือและฟีเจอร์ขั้นสูงมากกว่า 40 รายการเพื่อช่วยยกระดับผลิตภัณฑ์ของคุณ เลือกแพ็กเกจที่เหมาะกับความต้องการของคุณที่สุด"
+        },
+        "billingDetails": {
+          "title": "รายละเอียดการเรียกเก็บเงิน",
+          "emailLabel": "อีเมล",
+          "emailPlaceholder": "john.deo@gmail.com",
+          "passwordLabel": "รหัสผ่าน",
+          "passwordPlaceholder": "รหัสผ่าน",
+          "countryLabel": "ประเทศสำหรับออกบิล",
+          "zipLabel": "รหัสไปรษณีย์สำหรับออกบิล",
+          "zipPlaceholder": "รหัสไปรษณีย์สำหรับออกบิล"
+        },
+        "cardInfo": {
+          "title": "ข้อมูลบัตรเครดิต",
+          "cardNumberLabel": "หมายเลขบัตร",
+          "cardNumberPlaceholder": "8763 2345 3478",
+          "cardHolderLabel": "ชื่อผู้ถือบัตร",
+          "cardHolderPlaceholder": "John Doe",
+          "expDateLabel": "วันหมดอายุ",
+          "expDatePlaceholder": "05/2026",
+          "cvvLabel": "CVV",
+          "cvvPlaceholder": "734"
+        },
+        "orderSummary": {
+          "title": "สรุปคำสั่งซื้อ",
+          "subtitle": "ช่วยให้คุณจัดการและให้บริการคำสั่งซื้อได้ทั้งก่อน ระหว่าง และหลังการจัดส่ง",
+          "planName": "แพ็กเกจเริ่มต้นที่เรียบง่ายสำหรับทุกคน",
+          "perMonth": "/เดือน",
+          "changePlan": "เปลี่ยนแพ็กเกจ",
+          "subscription": "ค่าสมาชิก",
+          "tax": "ภาษี",
+          "total": "รวมทั้งหมด",
+          "proceed": "ดำเนินการชำระเงิน"
+        },
+        "footerNote": "เมื่อดำเนินการต่อ ถือว่าคุณยอมรับข้อกำหนดการให้บริการและนโยบายความเป็นส่วนตัวของเรา โปรดทราบว่าการชำระเงินไม่สามารถขอคืนได้"
+      },
+      "helpCenter": {
+        "readMore": "อ่านเพิ่มเติม",
+        "header": {
+          "title": "สวัสดี มีอะไรให้เราช่วยไหม?",
+          "searchPlaceholder": "พิมพ์คำถาม...",
+          "subtitle": "หัวข้อแก้ปัญหาทั่วไป: eCommerce, บล็อก, การชำระเงิน"
+        },
+        "articles": {
+          "title": "บทความยอดนิยม",
+          "items": [
+            {
+              "title": "เริ่มต้นใช้งาน",
+              "subtitle": "ไม่ว่าคุณจะเป็นผู้ใช้ใหม่หรือผู้ใช้ระดับสูง บทความนี้จะช่วยคุณได้"
+            },
+            {
+              "title": "ก้าวแรก",
+              "subtitle": "เป็นลูกค้าใหม่และอยากรู้ว่าจะเริ่มต้นอย่างไรใช่ไหม?"
+            },
+            {
+              "title": "เพิ่มคอนเทนต์ภายนอก",
+              "subtitle": "บทความนี้จะแสดงวิธีขยายความสามารถของแอป"
+            }
+          ]
+        },
+        "knowledgeBase": {
+          "title": "คลังความรู้",
+          "seeAllArticles": "ดูทั้งหมด 6 บทความ",
+          "categories": [
+            {
+              "title": "การสั่งซื้อ",
+              "articles": [
+                "รายการโปรดคืออะไร?",
+                "ฉันจะซื้อสินค้าได้อย่างไร?",
+                "ฉันจะเพิ่มหรือเปลี่ยนข้อมูลของฉันได้อย่างไร?",
+                "การคืนเงินทำงานอย่างไร?",
+                "ฉันขอคืนเงินได้ไหม?",
+                "ฉันกำลังหาสินค้าเฉพาะรายการ"
+              ]
+            },
+            {
+              "title": "การช่วยเหลือสินค้า",
+              "articles": [
+                "Item Support คืออะไร?",
+                "จะติดต่อผู้เขียนได้อย่างไร?",
+                "รหัสการซื้อของฉันอยู่ที่ไหน?",
+                "ต่ออายุการช่วยเหลือสินค้า",
+                "คำถามที่พบบ่อยเกี่ยวกับการช่วยเหลือสินค้า",
+                "ทำไมสินค้าของฉันถูกลบ?"
+              ]
+            },
+            {
+              "title": "ใบอนุญาต",
+              "articles": [
+                "ใช้ไลเซนส์เดียวกันกับ...ได้ไหม",
+                "จะติดต่อผู้เขียนได้อย่างไร?",
+                "ฉันกำลังทำเว็บไซต์ทดสอบ ไม่ได้ใช้จริง ...",
+                "ฉันควรใช้ไลเซนส์แบบไหน?",
+                "ฉันต้องการทำหลายผลิตภัณฑ์ปลายทาง ...",
+                "โลโก้ควรใช้ไลเซนส์แบบไหน?"
+              ]
+            },
+            {
+              "title": "Template Kits",
+              "articles": [
+                "Template Kits",
+                "Elementor Template Kits: PHP Zip ...",
+                "Template Kits - เทมเพลตที่นำเข้า ...",
+                "การแก้ปัญหาการนำเข้า",
+                "วิธีใช้ปลั๊กอิน WordPress ...",
+                "วิธีใช้ Template Kit Import ..."
+              ]
+            },
+            {
+              "title": "บัญชีและรหัสผ่าน",
+              "articles": [
+                "เข้าสู่ระบบด้วยบัญชีโซเชียล",
+                "บัญชีถูกล็อก",
+                "ฉันไม่ได้รับอีเมลยืนยันตัวตน",
+                "ลืมชื่อผู้ใช้หรือรหัสผ่าน",
+                "รหัสผ่านใหม่ไม่ถูกยอมรับ",
+                "Sign In Verification คืออะไร?"
+              ]
+            },
+            {
+              "title": "การตั้งค่าบัญชี",
+              "articles": [
+                "ฉันจะเปลี่ยนรหัสผ่านได้อย่างไร?",
+                "ฉันจะเปลี่ยนชื่อผู้ใช้ได้อย่างไร?",
+                "ฉันจะปิดบัญชีได้อย่างไร?",
+                "ฉันจะเปลี่ยนอีเมลได้อย่างไร?",
+                "ฉันจะกู้การเข้าถึงบัญชีของฉันได้อย่างไร ...",
+                "Market มี RSS feed ไหม?"
+              ]
+            }
+          ]
+        },
+        "keepLearning": {
+          "title": "เรียนรู้ต่อเนื่อง",
+          "items": [
+            {
+              "title": "บล็อก",
+              "subtitle": "เคล็ดลับและเครื่องมือจากผู้เชี่ยวชาญเพื่อพัฒนาเว็บไซต์หรือร้านค้าออนไลน์ของคุณด้วยบล็อก"
+            },
+            {
+              "title": "ศูนย์แรงบันดาลใจ",
+              "subtitle": "แรงบันดาลใจจากผู้เชี่ยวชาญเพื่อช่วยให้คุณเริ่มต้นและต่อยอดไอเดียใหญ่ของคุณ"
+            },
+            {
+              "title": "ชุมชน",
+              "subtitle": "กลุ่มผู้คนที่อยู่ในพื้นที่เดียวกันหรือมีความสนใจร่วมกัน"
+            }
+          ]
+        },
+        "needHelp": {
+          "title": "ยังต้องการความช่วยเหลือ?",
+          "subtitle": "ผู้เชี่ยวชาญของเรายินดีช่วยเหลือเสมอ ติดต่อเราในเวลาทำการหรืออีเมลหาเราได้ตลอด 24/7 แล้วเราจะติดต่อกลับ",
+          "communityCta": "เยี่ยมชมชุมชนของเรา",
+          "contactCta": "ติดต่อเรา"
+        },
+        "article": {
+          "breadcrumbHome": "ศูนย์ช่วยเหลือ",
+          "breadcrumbCurrent": "วิธีเพิ่มสินค้าในตะกร้า",
+          "title": "วิธีเพิ่มสินค้าในตะกร้า?",
+          "updatedAt": "1 เดือนที่แล้ว - อัปเดตแล้ว",
+          "content": [
+            "หากคุณต้องการเพียงหนึ่งรายการ ให้เลือกตัวเลือก 'ซื้อเลย' บนหน้าสินค้า ระบบจะพาคุณไปหน้า Checkout ทันที",
+            "หากต้องการหลายรายการ ให้ใช้ปุ่ม 'เพิ่มลงตะกร้า' จากนั้นเลือก 'เลือกสินค้าต่อ' เพื่อช้อปต่อ หรือ 'Checkout' เพื่อชำระเงิน",
+            "คุณสามารถกลับไปที่ตะกร้าได้ทุกเมื่อโดยคลิกไอคอนตะกร้าด้านขวาบนของหน้า"
+          ],
+          "productImageAlt": "รูปสินค้า",
+          "checkoutImageAlt": "รูปหน้าเช็กเอาต์",
+          "searchPlaceholder": "ค้นหา...",
+          "sectionTitle": "บทความในหมวดนี้",
+          "sidebarArticles": [
+            "Template Kits",
+            "Elementor Template Kits: PHP Zip Extends",
+            "Envato Elements Template Kits",
+            "Envato Elements Template Kits",
+            "วิธีใช้เทมเพลตใน WordPress",
+            "วิธีใช้ Template Kit Import"
+          ]
+        }
+      },
+      "landing": {
+        "shared": {
+          "bgShapeAlt": "ภาพตกแต่งพื้นหลัง"
+        },
+        "hero": {
+          "backgroundAlt": "พื้นหลังส่วนฮีโร่",
+          "title": "แอป SaaS แบบครบวงจรสำหรับธุรกิจของคุณ",
+          "subtitle": "ปรับแต่งได้โดยไม่ต้องเขียนโค้ด ระบบปรับแต่งแบบสดมีทุกอย่างที่ทีมการตลาดของคุณต้องการ",
+          "joinCommunity": "เข้าร่วมชุมชน",
+          "joinCommunityArrowAlt": "ลูกศร",
+          "getEarlyAccess": "รับสิทธิ์ก่อนใคร",
+          "dashboardAlt": "ภาพแดชบอร์ด",
+          "elementsAlt": "องค์ประกอบแดชบอร์ด"
+        },
+        "usefulFeature": {
+          "chip": "ฟีเจอร์เด่น",
+          "titleHighlight": "ทุกสิ่งที่คุณต้องการ",
+          "titleSuffix": "เพื่อเริ่มโปรเจกต์ถัดไป",
+          "subtitle": "ไม่ใช่แค่ชุดเครื่องมือ แต่ยังมีแอปเชิงแนวคิดที่พร้อมนำไปใช้งานจริง",
+          "items": {
+            "qualityCode": {
+              "title": "โค้ดคุณภาพ",
+              "description": "โครงสร้างโค้ดที่นักพัฒนาทุกคนเข้าใจง่ายและใช้งานได้อย่างราบรื่น"
+            },
+            "continuousUpdates": {
+              "title": "อัปเดตต่อเนื่อง",
+              "description": "อัปเดตฟรี 12 เดือนถัดไป รวมเดโมและฟีเจอร์ใหม่"
+            },
+            "starterKit": {
+              "title": "Starter Kit",
+              "description": "เริ่มโปรเจกต์ได้รวดเร็วโดยไม่ต้องลบฟีเจอร์ที่ไม่จำเป็น"
+            },
+            "apiReady": {
+              "title": "พร้อมเชื่อม API",
+              "description": "เปลี่ยน endpoint แล้วดูข้อมูลของคุณโหลดได้ในไม่กี่วินาที"
+            },
+            "excellentSupport": {
+              "title": "ซัพพอร์ตยอดเยี่ยม",
+              "description": "เอกสารทำตามง่าย พร้อมตัวอย่างและอ้างอิงโค้ดมากมาย"
+            },
+            "wellDocumented": {
+              "title": "เอกสารครบถ้วน",
+              "description": "เอกสารทำตามง่าย พร้อมตัวอย่างและอ้างอิงโค้ดมากมาย"
+            }
+          }
+        },
+        "customerReviews": {
+          "chip": "รีวิวจากลูกค้าจริง",
+          "title": "เสียงจากผู้ใช้",
+          "subtitle": "ดูว่าลูกค้าของเราพูดถึงประสบการณ์การใช้งานอย่างไร",
+          "items": {
+            "item1": {
+              "desc": "ฉันไม่เคยใช้ธีมที่ยืดหยุ่นและใช้งานได้หลากหลายเท่า Vuexy มาก่อน นี่คือเครื่องมือหลักของฉันสำหรับสร้างแดชบอร์ดในแทบทุกโปรเจกต์",
+              "position": "ผู้ก่อตั้ง Pinterest"
+            },
+            "item2": {
+              "desc": "Materio ยอดเยี่ยมมาก และฉันชอบที่หากติดปัญหา ก็ยังมีแนวทางให้ไปต่อได้",
+              "position": "ผู้ก่อตั้ง Netflix"
+            },
+            "item3": {
+              "desc": "เทมเพลตนี้โดดเด่นหลายด้าน ทั้งโค้ด ดีไซน์ การอัปเดตสม่ำเสมอ และการซัพพอร์ต ครบเครื่องมาก",
+              "position": "CTO ของ Airbnb"
+            },
+            "item4": {
+              "desc": "ข้อกำหนดสำหรับนักพัฒนาถูกคิดมาอย่างดี ทำให้ฉันสร้างอินเทอร์เฟซได้ตามที่ต้องการ",
+              "position": "ผู้ก่อตั้ง Coinbase"
+            },
+            "item5": {
+              "desc": "ฉันไม่เคยใช้ธีมที่ยืดหยุ่นและใช้งานได้หลากหลายเท่า Vuexy มาก่อน นี่คือเครื่องมือหลักของฉันสำหรับสร้างแดชบอร์ดในแทบทุกโปรเจกต์",
+              "position": "ผู้ก่อตั้ง Dribble"
+            },
+            "item6": {
+              "desc": "ฉันไม่เคยใช้ธีมที่ยืดหยุ่นและใช้งานได้หลากหลายเท่า Vuexy มาก่อน นี่คือเครื่องมือหลักของฉันสำหรับสร้างแดชบอร์ดในแทบทุกโปรเจกต์",
+              "position": "ผู้ก่อตั้ง Pinterest"
+            },
+            "item7": {
+              "desc": "Materio ยอดเยี่ยมมาก และฉันชอบที่หากติดปัญหา ก็ยังมีแนวทางให้ไปต่อได้",
+              "position": "ผู้ก่อตั้ง HubSpot"
+            },
+            "item8": {
+              "desc": "เทมเพลตนี้โดดเด่นหลายด้าน ทั้งโค้ด ดีไซน์ การอัปเดตสม่ำเสมอ และการซัพพอร์ต ครบเครื่องมาก",
+              "position": "CTO ของ Airbnb"
+            },
+            "item9": {
+              "desc": "ข้อกำหนดสำหรับนักพัฒนาถูกคิดมาอย่างดี ทำให้ฉันสร้างอินเทอร์เฟซได้ตามที่ต้องการ",
+              "position": "ผู้ก่อตั้ง Coinbase"
+            },
+            "item10": {
+              "desc": "Materio ยอดเยี่ยมมาก และฉันชอบที่หากติดปัญหา ก็ยังมีแนวทางให้ไปต่อได้",
+              "position": "ผู้ก่อตั้ง Dribbble"
+            }
+          }
+        },
+        "ourTeam": {
+          "chip": "ทีมงานของเรา",
+          "titleHighlight": "ขับเคลื่อน",
+          "titleSuffix": "โดยคนจริง",
+          "subtitle": "ใครคือผู้อยู่เบื้องหลังอินเทอร์เฟซที่สวยงามเหล่านี้?",
+          "positions": {
+            "projectManager": "ผู้จัดการโครงการ",
+            "uiDesigner": "นักออกแบบ UI",
+            "developmentLead": "หัวหน้าทีมพัฒนา",
+            "marketingManager": "ผู้จัดการการตลาด"
+          }
+        },
+        "pricing": {
+          "chip": "แพ็กเกจราคา",
+          "titleHighlight": "แผนราคาที่ออกแบบเฉพาะ",
+          "titleSuffix": "เพื่อคุณ",
+          "subtitleLine1": "ทุกแผนมาพร้อมเครื่องมือและฟีเจอร์ขั้นสูงกว่า 40 รายการ",
+          "subtitleLine2": "เลือกแผนที่เหมาะกับความต้องการของคุณที่สุด",
+          "payMonthly": "จ่ายรายเดือน",
+          "payAnnually": "จ่ายรายปี",
+          "saveArrowAlt": "ลูกศรราคาพิเศษ",
+          "save": "ประหยัด 25%",
+          "perMonth": "/เดือน",
+          "perYear": "/ปี",
+          "getStarted": "เริ่มต้นใช้งาน",
+          "plans": {
+            "basic": {
+              "title": "พื้นฐาน"
+            },
+            "team": {
+              "title": "ทีม"
+            },
+            "enterprise": {
+              "title": "องค์กร"
+            }
+          },
+          "features": {
+            "timeline": "ไทม์ไลน์",
+            "basicSearch": "ค้นหาแบบพื้นฐาน",
+            "liveChatWidget": "วิดเจ็ตแชตสด",
+            "emailMarketing": "การตลาดผ่านอีเมล",
+            "customForms": "ฟอร์มกำหนดเอง",
+            "trafficAnalytics": "วิเคราะห์ทราฟฟิก",
+            "everythingInBasic": "ทุกอย่างในแผนพื้นฐาน",
+            "timelineWithDatabase": "ไทม์ไลน์พร้อมฐานข้อมูล",
+            "advancedSearch": "ค้นหาขั้นสูง",
+            "marketingAutomation": "ระบบการตลาดอัตโนมัติ",
+            "advancedChatbot": "แชตบอตขั้นสูง",
+            "campaignManagement": "จัดการแคมเปญ",
+            "fuzzySearch": "ค้นหาแบบฟัซซี",
+            "abTestingSandbox": "แซนด์บ็อกซ์ทดสอบ A/B",
+            "customPermissions": "สิทธิ์แบบกำหนดเอง",
+            "socialMediaAutomation": "อัตโนมัติโซเชียลมีเดีย"
+          }
+        },
+        "productStat": {
+          "supportTicketsResolved": "เคสซัพพอร์ตที่แก้ไขแล้ว",
+          "joinCreativesCommunity": "สมาชิกคอมมูนิตี้ครีเอทีฟ",
+          "highlyRatedProducts": "ผลิตภัณฑ์คะแนนสูง",
+          "moneyBackGuarantee": "รับประกันคืนเงิน"
+        },
+        "faq": {
+          "chip": "คำถามที่พบบ่อย",
+          "titlePrefix": "คำถาม",
+          "titleHighlight": "ที่พบบ่อย",
+          "subtitle": "เรียกดูคำถามที่พบบ่อยเพื่อค้นหาคำตอบอย่างรวดเร็ว",
+          "illustrationAlt": "เด็กผู้ชายนั่งกับแล็ปท็อป",
+          "items": {
+            "panel1": {
+              "question": "มีค่าใช้จ่ายทุกครั้งที่อัปเกรดหรือไม่?",
+              "answer": "มีการอัปเดตเนื้อหาและฟีเจอร์อย่างต่อเนื่องตามแผนที่คุณเลือก โดยเงื่อนไขขึ้นกับประเภทสิทธิ์การใช้งาน"
+            },
+            "panel2": {
+              "question": "สิทธิ์ใช้งานแบบปกติคืออะไร?",
+              "answer": "สิทธิ์แบบปกติเหมาะสำหรับผลิตภัณฑ์ปลายทางที่ไม่เก็บค่าบริการผู้ใช้ คุณสามารถใช้ได้กับผลิตภัณฑ์หนึ่งรายการต่อหนึ่งสิทธิ์ หากใช้งานหลายโดเมนหรือหลายลูกค้า ต้องซื้อสิทธิ์แยกตามเงื่อนไข"
+            },
+            "panel3": {
+              "question": "สิทธิ์ใช้งานแบบขยายคืออะไร?",
+              "answer": "สิทธิ์แบบขยายเหมาะสำหรับงานที่มีรูปแบบการใช้งานเชิงพาณิชย์มากขึ้นและข้อกำหนดที่ยืดหยุ่นกว่า โปรดตรวจสอบรายละเอียดสิทธิ์อย่างเป็นทางการก่อนใช้งาน"
+            },
+            "panel4": {
+              "question": "แอป SASS ควรใช้สิทธิ์แบบใด?",
+              "answer": "โดยทั่วไปขึ้นอยู่กับรูปแบบการให้บริการและการคิดค่าบริการของผลิตภัณฑ์คุณ แนะนำให้อ้างอิงเงื่อนไขสิทธิ์ล่าสุดเพื่อเลือกให้ตรงการใช้งาน"
+            }
+          }
+        },
+        "getStarted": {
+          "backgroundAlt": "ภาพพื้นหลัง",
+          "title": "พร้อมเริ่มต้นหรือยัง?",
+          "subtitle": "เริ่มโปรเจกต์ของคุณด้วยทดลองใช้ฟรี 14 วัน",
+          "button": "เริ่มต้นใช้งาน",
+          "dashboardAlt": "ภาพแดชบอร์ด"
+        },
+        "contactUs": {
+          "chip": "ติดต่อเรา",
+          "titleHighlight": "มาร่วมงาน",
+          "titleSuffix": "กันเถอะ",
+          "subtitle": "มีคำถามหรือข้อเสนอแนะ? ส่งข้อความหาเราได้เลย",
+          "borderAlt": "เส้นขอบติดต่อ",
+          "customerServiceAlt": "ฝ่ายบริการลูกค้า",
+          "email": "อีเมล",
+          "phone": "โทรศัพท์",
+          "sendMessageTitle": "ส่งข้อความ",
+          "sendMessageDescription": "หากคุณต้องการพูดคุยเรื่องการชำระเงิน บัญชี สิทธิ์การใช้งาน พาร์ทเนอร์ หรือคำถามก่อนการขาย คุณมาถูกที่แล้ว",
+          "fullName": "ชื่อ-นามสกุล",
+          "emailAddress": "ที่อยู่อีเมล",
+          "message": "ข้อความ",
+          "sendInquiry": "ส่งคำถาม"
+        }
+      }
+    }
+  }
+}
