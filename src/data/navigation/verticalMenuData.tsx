@@ -58,11 +58,6 @@ const verticalMenuData = (dictionary: Awaited<ReturnType<typeof getDictionary>>,
           label: navDict?.webhooks || 'Webhook Config',
           icon: 'tabler-webhook',
           href: '/admin/webhooks'
-        },
-        {
-          label: 'Review Queue',
-          icon: 'tabler-list-check',
-          href: '/admin/review-queue'
         }
       ]
     }
