@@ -5,6 +5,7 @@ import Avatar from '@mui/material/Avatar'
 import Box from '@mui/material/Box'
 import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
+import CircularProgress from '@mui/material/CircularProgress'
 
 import { Icon } from '@iconify/react'
 
@@ -14,6 +15,7 @@ import type { ChatMessage } from '@/types/chat/public-chat'
 type Props = {
   messages: ChatMessage[]
   errorText: string
+  isSending?: boolean
   endRef: RefObject<HTMLDivElement | null>
 }
 
@@ -26,7 +28,7 @@ const messageTextSx = {
   letterSpacing: 0.1,
 }
 
-export default function ChatMessages({ messages, errorText, endRef }: Props) {
+export default function ChatMessages({ messages, errorText, isSending, endRef }: Props) {
   const { t } = useDictionary()
 
   const hasMessages = messages.length > 0
@@ -63,7 +65,11 @@ export default function ChatMessages({ messages, errorText, endRef }: Props) {
               return (
                 <Box key={message.id} sx={{ display: 'flex', justifyContent: isUser ? 'flex-end' : 'flex-start' }}>
                   <Stack direction='row' spacing={1.5} sx={{ maxWidth: { xs: '94%', md: '82%' } }}>
-                    {!isUser && <Avatar sx={{ width: 34, height: 34, fontSize: '0.8rem' }}>AI</Avatar>}
+                    {!isUser && (
+                      <Avatar sx={{ width: 34, height: 34, bgcolor: 'primary.main' }}>
+                        <Icon icon="tabler-robot" fontSize={20} />
+                      </Avatar>
+                    )}
                     <Box
                       sx={{
                         p: 2.2,
@@ -92,6 +98,19 @@ export default function ChatMessages({ messages, errorText, endRef }: Props) {
                 </Box>
               )
             })}
+            {isSending && (
+              <Box sx={{ display: 'flex', justifyContent: 'flex-start' }}>
+                <Stack direction='row' spacing={1.5} alignItems="center">
+                  <Avatar sx={{ width: 34, height: 34, bgcolor: 'primary.main' }}>
+                    <Icon icon="tabler-robot" fontSize={20} />
+                  </Avatar>
+                  <Box sx={{ display: 'flex', gap: 0.5, p: 1.5, bgcolor: 'background.paper', borderRadius: 2, border: '1px solid', borderColor: 'divider' }}>
+                    <CircularProgress size={16} thickness={5} />
+                    <Typography variant="caption" color="text.secondary">AI is thinking...</Typography>
+                  </Box>
+                </Stack>
+              </Box>
+            )}
             <div ref={endRef} />
           </Stack>
         )}

@@ -56,7 +56,12 @@ export default function PublicChatPage() {
           {!state.canChat && <Alert severity='warning'>{t('dms.chat.page.usernameRequired')}</Alert>}
 
           <Stack spacing={3} sx={{ mt: state.canChat ? 0 : 2 }}>
-            <ChatMessages messages={state.messages} errorText={state.errorText} endRef={state.endRef} />
+            <ChatMessages
+              messages={state.messages}
+              errorText={state.errorText}
+              isSending={state.isSending}
+              endRef={state.endRef}
+            />
 
             <ChatComposer
               canChat={state.canChat}

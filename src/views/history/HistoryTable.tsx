@@ -122,11 +122,11 @@ const HistoryTable = ({
           <TableHead>
             <TableRow>
               <TableCell>{t('dms.history.document')}</TableCell>
-              <TableCell>{t('dms.common.academicYear')}</TableCell>
-              <TableCell>{t('dms.common.department')}</TableCell>
-              <TableCell>{t('dms.history.fileSize')}</TableCell>
-              <TableCell>{t('dms.history.uploaded')}</TableCell>
-              <TableCell>{t('dms.history.lastModified')}</TableCell>
+              <TableCell sx={{ display: { xs: 'none', sm: 'table-cell' } }}>{t('dms.common.academicYear')}</TableCell>
+              <TableCell sx={{ display: { xs: 'none', md: 'table-cell' } }}>{t('dms.common.department')}</TableCell>
+              <TableCell sx={{ display: { xs: 'none', lg: 'table-cell' } }}>{t('dms.history.fileSize')}</TableCell>
+              <TableCell sx={{ display: { xs: 'none', md: 'table-cell' } }}>{t('dms.history.uploaded')}</TableCell>
+              <TableCell sx={{ display: { xs: 'none', xl: 'table-cell' } }}>{t('dms.history.lastModified')}</TableCell>
               <TableCell align='right'>{t('dms.common.actions')}</TableCell>
             </TableRow>
           </TableHead>
@@ -150,32 +150,36 @@ const HistoryTable = ({
                       >
                         <Icon icon={fileIcon} fontSize={24} />
                       </Avatar>
-                      <Box>
-                        <Typography variant='body2' fontWeight={600}>
+                      <Box sx={{ maxWidth: { xs: '150px', sm: 'none' } }}>
+                        <Typography variant='body2' fontWeight={600} noWrap>
                           {document.fileName}
                         </Typography>
-                        <Typography variant='caption' color='text.secondary'>
+                        <Typography variant='caption' color='text.secondary' noWrap display="block">
                           {document.originalName}
                         </Typography>
+                        <Box sx={{ display: { xs: 'flex', sm: 'none' }, gap: 1, mt: 1 }}>
+                           <Chip label={document.academicYear} size='small' variant='tonal' color='primary' sx={{ height: 20, fontSize: '0.65rem' }} />
+                           <Typography variant='caption' color='text.secondary'>{formatFileSize(document.fileSize)}</Typography>
+                        </Box>
                       </Box>
                     </Box>
                   </TableCell>
 
-                  <TableCell>
+                  <TableCell sx={{ display: { xs: 'none', sm: 'table-cell' } }}>
                     <Chip label={document.academicYear} size='small' variant='tonal' color='primary' />
                   </TableCell>
-                  <TableCell>
+                  <TableCell sx={{ display: { xs: 'none', md: 'table-cell' } }}>
                     <Typography variant='body2'>{document.department}</Typography>
                   </TableCell>
-                  <TableCell>
+                  <TableCell sx={{ display: { xs: 'none', lg: 'table-cell' } }}>
                     <Typography variant='body2'>{formatFileSize(document.fileSize)}</Typography>
                   </TableCell>
-                  <TableCell>
+                  <TableCell sx={{ display: { xs: 'none', md: 'table-cell' } }}>
                     <Typography variant='body2' color='text.secondary'>
                       {formatDate(document.createdAt)}
                     </Typography>
                   </TableCell>
-                  <TableCell>
+                  <TableCell sx={{ display: { xs: 'none', xl: 'table-cell' } }}>
                     <Typography variant='body2' color='text.secondary'>
                       {formatDate(document.updatedAt)}
                     </Typography>

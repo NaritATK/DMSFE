@@ -14,6 +14,8 @@ import Divider from '@mui/material/Divider'
 import Grid from '@mui/material/Grid'
 import IconButton from '@mui/material/IconButton'
 import Typography from '@mui/material/Typography'
+import useMediaQuery from '@mui/material/useMediaQuery'
+import { useTheme } from '@mui/material/styles'
 
 import { Icon } from '@iconify/react'
 
@@ -78,6 +80,8 @@ const formatFileSize = (bytes: number, t: (key: string, fallback?: string) => st
 const DocumentDetailDialog = ({ open, document, onClose, onDownload }: DocumentDetailDialogProps) => {
   const { t, locale } = useDictionary()
   const [previewing, setPreviewing] = useState(false)
+  const theme = useTheme()
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
 
   const docId = (document as any).documentId || document.id
   const fileTypeHint = [document.fileType, document.fileName, document.originalName].filter(Boolean).join(' ')
@@ -115,7 +119,7 @@ const DocumentDetailDialog = ({ open, document, onClose, onDownload }: DocumentD
   }
 
   return (
-    <Dialog open={open} onClose={onClose} maxWidth='sm' fullWidth>
+    <Dialog open={open} onClose={onClose} maxWidth='sm' fullWidth fullScreen={isMobile}>
       <DialogTitle>
         <Box className='flex items-center justify-between'>
           <Typography variant='h5'>{t('dms.history.documentDetails')}</Typography>
@@ -154,7 +158,7 @@ const DocumentDetailDialog = ({ open, document, onClose, onDownload }: DocumentD
               {t('dms.history.information')}
             </Typography>
             <Grid container spacing={3}>
-              <Grid>
+              <Grid item xs={12} sm={4}>
                 <Typography variant='caption' color='text.secondary'>
                   {t('dms.common.academicYear')}
                 </Typography>
@@ -162,7 +166,7 @@ const DocumentDetailDialog = ({ open, document, onClose, onDownload }: DocumentD
                   <Chip label={document.academicYear} size='small' color='primary' />
                 </Box>
               </Grid>
-              <Grid>
+              <Grid item xs={12} sm={4}>
                 <Typography variant='caption' color='text.secondary'>
                   {t('dms.common.department')}
                 </Typography>
@@ -170,7 +174,7 @@ const DocumentDetailDialog = ({ open, document, onClose, onDownload }: DocumentD
                   {document.department}
                 </Typography>
               </Grid>
-              <Grid>
+              <Grid item xs={12} sm={4}>
                 <Typography variant='caption' color='text.secondary'>
                   {t('dms.history.fileSize')}
                 </Typography>
