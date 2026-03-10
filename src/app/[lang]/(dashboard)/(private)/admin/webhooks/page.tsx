@@ -17,6 +17,7 @@ import DialogActions from '@mui/material/DialogActions'
 import DialogContent from '@mui/material/DialogContent'
 import DialogTitle from '@mui/material/DialogTitle'
 import FormControlLabel from '@mui/material/FormControlLabel'
+import InputAdornment from '@mui/material/InputAdornment'
 import IconButton from '@mui/material/IconButton'
 import Paper from '@mui/material/Paper'
 import Switch from '@mui/material/Switch'
@@ -55,6 +56,7 @@ export default function WebhooksPage() {
   const [dialogOpen, setDialogOpen] = useState(false)
   const [selectedWebhook, setSelectedWebhook] = useState<Webhook | null>(null)
   const [formData, setFormData] = useState<CreateWebhookDto>(initialForm)
+  const [showApiKey, setShowApiKey] = useState(false)
 
   const token = (session as any)?.backendToken || (session as any)?.accessToken || ''
 
@@ -278,6 +280,28 @@ export default function WebhooksPage() {
               })}
               placeholder={t('dms.admin.webhooks.placeholders.events')}
               helperText={t('dms.admin.webhooks.eventsHelp')}
+            />
+            <TextField
+              label="API Key / Token (Optional)"
+              type={showApiKey ? 'text' : 'password'}
+              value={formData.headers?.['x-api-key'] || ''}
+              onChange={e => setFormData({
+                ...formData,
+                headers: {
+                  ...formData.headers,
+                  'x-api-key': e.target.value
+                }
+              })}
+              placeholder="Enter API Key if required by N8N"
+              InputProps={{
+                endAdornment: (
+                  <InputAdornment position="end">
+                    <IconButton onClick={() => setShowApiKey(!showApiKey)} edge="end">
+                      <Icon icon={showApiKey ? 'tabler-eye-off' : 'tabler-eye'} />
+                    </IconButton>
+                  </InputAdornment>
+                ),
+              }}
             />
             <FormControlLabel
               control={<Switch checked={formData.enabled} onChange={e => setFormData({ ...formData, enabled: e.target.checked })} />}

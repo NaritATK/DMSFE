@@ -4,9 +4,6 @@ import type { NextAuthOptions } from 'next-auth'
 import { Buffer } from 'buffer'
 import { getApiOrigin } from './api-url'
 
-// Disable SSL certificate validation for self-signed certificates
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
-
 // API Backend URL
 const API_ORIGIN = getApiOrigin()
 const AUTH_BASE_URL = (process.env.NEXTAUTH_URL || 'http://localhost:6849').replace(/\/$/, '')
@@ -75,6 +72,7 @@ export const authOptions: NextAuthOptions = {
         }
       },
       // Enable state check for security (production)
+      checks: ['pkce', 'state'],
     })
   ],
 
@@ -85,14 +83,14 @@ export const authOptions: NextAuthOptions = {
   },
 
   // ** Cookies configuration for HTTPS (production)
-  cookies: {
+  cookies: IS_HTTPS ? {
     sessionToken: {
       name: `__Secure-next-auth.session-token`,
       options: {
         httpOnly: true,
         sameSite: 'lax',
         path: '/',
-        secure: IS_HTTPS
+        secure: true
       }
     },
     callbackUrl: {
@@ -100,7 +98,7 @@ export const authOptions: NextAuthOptions = {
       options: {
         sameSite: 'lax',
         path: '/',
-        secure: IS_HTTPS
+        secure: true
       }
     },
     csrfToken: {
@@ -109,10 +107,10 @@ export const authOptions: NextAuthOptions = {
         httpOnly: true,
         sameSite: 'lax',
         path: '/',
-        secure: IS_HTTPS
+        secure: true
       }
     }
-  },
+  } : undefined,
 
   // ** Pages configuration
   pages: {
