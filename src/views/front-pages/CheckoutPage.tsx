@@ -6,8 +6,9 @@ import { useEffect } from 'react'
 // Third-party Imports
 import classnames from 'classnames'
 
-// Component Imports
-import Checkout from '@views/pages/wizard-examples/checkout/index'
+import Box from '@mui/material/Box'
+import Typography from '@mui/material/Typography'
+
 import { useSettings } from '@core/hooks/useSettings'
 
 // Styles Imports
@@ -27,7 +28,12 @@ const CheckoutPage = () => {
 
   return (
     <section className={classnames('md:plb-[100px] plb-6', frontCommonStyles.layoutSpacing)}>
-      <Checkout />
+      <Box className='flex flex-col items-center justify-center p-8'>
+        <Typography variant='h4'>Checkout</Typography>
+        <Typography variant='body2' color='text.secondary'>
+          This page is under construction.
+        </Typography>
+      </Box>
     </section>
   )
 }

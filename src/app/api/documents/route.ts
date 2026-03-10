@@ -67,9 +67,22 @@ export async function GET(request: NextRequest) {
     }
 
     const data = await response.json()
-    console.log('[API /documents] Success, documents count:', data.documents?.length || 0)
 
-    return NextResponse.json(data)
+    // Normalize: BE returns { success, data: [...], pagination: { total, page, limit, totalPages } }
+    // FE expects { documents: [...], total, page, limit, totalPages }
+    const documents = data.documents || data.data || []
+    const pagination = data.pagination || {}
+    const normalized = {
+      documents,
+      total: data.total ?? pagination.total ?? documents.length,
+      page: data.page ?? pagination.page ?? 1,
+      limit: data.limit ?? pagination.limit ?? 10,
+      totalPages: data.totalPages ?? pagination.totalPages ?? 1,
+    }
+
+    console.log('[API /documents] Success, documents count:', normalized.documents.length)
+
+    return NextResponse.json(normalized)
   } catch (error) {
     console.error('[API /documents] Error:', error)
     return internalErrorResponse('Error fetching documents:', error, request)

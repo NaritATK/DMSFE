@@ -3,7 +3,8 @@ import { useState } from 'react'
 import { useDocuments } from '@/hooks/useDocuments'
 import { getDocumentPresignUrl } from '@/services/document.service'
 
-import type { DocumentWithRelations, HistoryFilters } from '@/types/dms'
+import type { Document } from '@/services/document.service'
+import type { HistoryFilters } from '@/types/dms'
 
 const initialFilters: HistoryFilters = {
   search: '',
@@ -15,13 +16,8 @@ const initialFilters: HistoryFilters = {
   sortOrder: 'desc'
 }
 
-const getDocumentId = (document: DocumentWithRelations): string | null => {
-  const candidateId =
-    typeof document.id === 'string'
-      ? document.id
-      : typeof (document as DocumentWithRelations & { documentId?: unknown }).documentId === 'string'
-        ? String((document as DocumentWithRelations & { documentId?: string }).documentId)
-        : null
+const getDocumentId = (document: Document): string | null => {
+  const candidateId = document.documentId
 
   if (!candidateId || candidateId === 'undefined' || candidateId === 'null') return null
 
@@ -32,7 +28,7 @@ export const useHistoryPage = () => {
   const [filters, setFilters] = useState<HistoryFilters>(initialFilters)
   const [page, setPage] = useState(0)
   const [rowsPerPage, setRowsPerPage] = useState(10)
-  const [selectedDocument, setSelectedDocument] = useState<DocumentWithRelations | null>(null)
+  const [selectedDocument, setSelectedDocument] = useState<Document | null>(null)
   const [detailDialogOpen, setDetailDialogOpen] = useState(false)
 
   const { documents, totalCount, isLoading, error } = useDocuments({ filters, page, rowsPerPage })
@@ -44,7 +40,7 @@ export const useHistoryPage = () => {
     console.log('[useHistoryPage] Error code:', (error as any)?.errorCode)
   }
 
-  const openDetailDialog = (document: DocumentWithRelations) => {
+  const openDetailDialog = (document: Document) => {
     setSelectedDocument(document)
     setDetailDialogOpen(true)
   }
@@ -54,7 +50,7 @@ export const useHistoryPage = () => {
     setSelectedDocument(null)
   }
 
-  const handleDownload = async (document: DocumentWithRelations) => {
+  const handleDownload = async (document: Document) => {
     const documentId = getDocumentId(document)
 
     if (!documentId) {

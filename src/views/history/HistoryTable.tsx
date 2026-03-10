@@ -18,17 +18,17 @@ import { Icon } from '@iconify/react'
 
 import { useDictionary } from '@/hooks/useDictionary'
 
-import type { DocumentWithRelations } from '@/types/dms'
+import type { Document } from '@/services/document.service'
 
 interface HistoryTableProps {
-  documents: DocumentWithRelations[]
+  documents: Document[]
   totalCount: number
   page: number
   rowsPerPage: number
   onPageChange: (page: number) => void
   onRowsPerPageChange: (rowsPerPage: number) => void
-  onViewDetails: (document: DocumentWithRelations) => void
-  onDownload: (document: DocumentWithRelations) => void
+  onViewDetails: (document: Document) => void
+  onDownload: (document: Document) => void
 }
 
 const normalizeType = (value: string) => (value || '').toLowerCase().trim()
@@ -133,12 +133,12 @@ const HistoryTable = ({
 
           <TableBody>
             {documents.map((document, index) => {
-              const typeHint = [document.fileType, document.fileName, document.originalName].filter(Boolean).join(' ')
+              const typeHint = [document.mimeType, document.fileName, document.fileExtension].filter(Boolean).join(' ')
               const fileColor = getFileColor(typeHint)
               const fileIcon = getFileIcon(typeHint)
 
               return (
-                <TableRow key={document.id || `doc-${index}`} hover>
+                <TableRow key={document.documentId || `doc-${index}`} hover>
                   <TableCell>
                     <Box className='flex items-center gap-3'>
                       <Avatar
@@ -152,10 +152,10 @@ const HistoryTable = ({
                       </Avatar>
                       <Box sx={{ maxWidth: { xs: '150px', sm: 'none' } }}>
                         <Typography variant='body2' fontWeight={600} noWrap>
-                          {document.fileName}
+                          {document.title || document.fileName}
                         </Typography>
                         <Typography variant='caption' color='text.secondary' noWrap display="block">
-                          {document.originalName}
+                          {document.fileName}
                         </Typography>
                         <Box sx={{ display: { xs: 'flex', sm: 'none' }, gap: 1, mt: 1 }}>
                            <Chip label={document.academicYear} size='small' variant='tonal' color='primary' sx={{ height: 20, fontSize: '0.65rem' }} />
@@ -176,7 +176,7 @@ const HistoryTable = ({
                   </TableCell>
                   <TableCell sx={{ display: { xs: 'none', md: 'table-cell' } }}>
                     <Typography variant='body2' color='text.secondary'>
-                      {formatDate(document.createdAt)}
+                      {formatDate(document.uploadedAt)}
                     </Typography>
                   </TableCell>
                   <TableCell sx={{ display: { xs: 'none', xl: 'table-cell' } }}>

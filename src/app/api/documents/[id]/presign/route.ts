@@ -42,7 +42,10 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
 
     const data = await response.json()
 
-    return NextResponse.json(data)
+    // Normalize: BE returns { success, data: { url } }, FE expects { url }
+    const url = data?.data?.url || data?.url || null
+
+    return NextResponse.json({ url })
   } catch (error) {
     return internalErrorResponse('Error generating presigned URL:', error, request)
   }

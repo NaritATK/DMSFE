@@ -21,13 +21,13 @@ import { Icon } from '@iconify/react'
 
 import { useDictionary } from '@/hooks/useDictionary'
 
-import type { DocumentWithRelations } from '@/types/dms'
+import type { Document } from '@/services/document.service'
 
 interface DocumentDetailDialogProps {
   open: boolean
-  document: DocumentWithRelations
+  document: Document
   onClose: () => void
-  onDownload: (document: DocumentWithRelations) => void
+  onDownload: (document: Document) => void
 }
 
 const normalizeType = (value: string) => (value || '').toLowerCase().trim()
@@ -83,8 +83,8 @@ const DocumentDetailDialog = ({ open, document, onClose, onDownload }: DocumentD
   const theme = useTheme()
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'))
 
-  const docId = (document as any).documentId || document.id
-  const fileTypeHint = [document.fileType, document.fileName, document.originalName].filter(Boolean).join(' ')
+  const docId = document.documentId
+  const fileTypeHint = [document.mimeType, document.fileName, document.fileExtension].filter(Boolean).join(' ')
 
   const formatDate = (date: Date | string) =>
     new Date(date).toLocaleString(locale === 'th' ? 'th-TH' : 'en-US', {
@@ -145,10 +145,10 @@ const DocumentDetailDialog = ({ open, document, onClose, onDownload }: DocumentD
             </Avatar>
             <Box className='flex-1'>
               <Typography variant='h6' className='mb-1'>
-                {document.fileName}
+                {document.title || document.fileName}
               </Typography>
               <Typography variant='body2' color='text.secondary'>
-                {document.originalName}
+                {document.fileName}
               </Typography>
             </Box>
           </Box>
@@ -158,7 +158,7 @@ const DocumentDetailDialog = ({ open, document, onClose, onDownload }: DocumentD
               {t('dms.history.information')}
             </Typography>
             <Grid container spacing={3}>
-              <Grid item xs={12} sm={4}>
+              <Grid size={{ xs: 12, sm: 4 }}>
                 <Typography variant='caption' color='text.secondary'>
                   {t('dms.common.academicYear')}
                 </Typography>
@@ -166,7 +166,7 @@ const DocumentDetailDialog = ({ open, document, onClose, onDownload }: DocumentD
                   <Chip label={document.academicYear} size='small' color='primary' />
                 </Box>
               </Grid>
-              <Grid item xs={12} sm={4}>
+              <Grid size={{ xs: 12, sm: 4 }}>
                 <Typography variant='caption' color='text.secondary'>
                   {t('dms.common.department')}
                 </Typography>
@@ -174,7 +174,7 @@ const DocumentDetailDialog = ({ open, document, onClose, onDownload }: DocumentD
                   {document.department}
                 </Typography>
               </Grid>
-              <Grid item xs={12} sm={4}>
+              <Grid size={{ xs: 12, sm: 4 }}>
                 <Typography variant='caption' color='text.secondary'>
                   {t('dms.history.fileSize')}
                 </Typography>
@@ -190,7 +190,7 @@ const DocumentDetailDialog = ({ open, document, onClose, onDownload }: DocumentD
               {t('dms.history.timeline')}
             </Typography>
             <Typography variant='body2'>
-              {t('dms.history.uploaded')}: {formatDate(document.createdAt)}
+              {t('dms.history.uploaded')}: {formatDate(document.uploadedAt)}
             </Typography>
             <Typography variant='body2'>
               {t('dms.history.lastModified')}: {formatDate(document.updatedAt)}

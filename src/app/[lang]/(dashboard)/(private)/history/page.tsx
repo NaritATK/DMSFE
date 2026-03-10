@@ -14,7 +14,7 @@ import Typography from '@mui/material/Typography'
 import { Icon } from '@iconify/react'
 
 import { useDictionary } from '@/hooks/useDictionary'
-import { getDocuments, type Document } from '@/services/document.service'
+import { getDocuments, getDocumentPresignUrl, type Document } from '@/services/document.service'
 import DocumentDetailDialog from '@/views/history/DocumentDetailDialog'
 import HistoryFilters from '@/views/history/HistoryFilters'
 import HistoryTable from '@/views/history/HistoryTable'
@@ -92,6 +92,23 @@ export default function HistoryPage() {
     setSelectedDocument(null)
   }
 
+  const handleDownload = async (doc: Document) => {
+    const docId = doc.documentId
+    if (!docId || docId === 'undefined' || docId === 'null') {
+      console.error('Invalid document ID for download:', doc)
+      return
+    }
+
+    try {
+      const data = await getDocumentPresignUrl(docId)
+      if (data?.url) {
+        window.open(data.url, '_blank')
+      }
+    } catch {
+      // ignore non-critical download errors in UI
+    }
+  }
+
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
       <Box className='flex items-center justify-between'>
@@ -141,7 +158,7 @@ export default function HistoryPage() {
               onPageChange={setPage}
               onRowsPerPageChange={setRowsPerPage}
               onViewDetails={openDetailDialog}
-              onDownload={() => {}}
+              onDownload={handleDownload}
             />
           )}
         </CardContent>

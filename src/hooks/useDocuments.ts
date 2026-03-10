@@ -7,10 +7,11 @@ import useSWR from 'swr'
 import apiClient from '@/libs/axios'
 
 // Type Imports
-import type { DocumentWithRelations, HistoryFilters } from '@/types/dms'
+import type { Document } from '@/services/document.service'
+import type { HistoryFilters } from '@/types/dms'
 
 interface DocumentsResponse {
-  documents: DocumentWithRelations[]
+  documents: Document[]
   total: number
   page: number
   limit: number
@@ -114,7 +115,7 @@ export const useDocuments = ({ filters, page, rowsPerPage }: UseDocumentsOptions
  * Hook for fetching a single document
  */
 export const useDocument = (documentId: string | null) => {
-  const { data, error, isLoading } = useSWR<DocumentWithRelations>(
+  const { data, error, isLoading } = useSWR<Document>(
     documentId ? `/api/documents/${documentId}` : null,
     async (url: string) => {
       const response = await fetch(url)

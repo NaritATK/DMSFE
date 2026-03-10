@@ -30,29 +30,68 @@ export type UserWithPermissions = User
 // Document Types
 // ============================================
 
+/**
+ * Document type aligned with the actual API response from DMFAPI.
+ * This is the single source of truth for document shape across the app.
+ */
 export interface Document {
-  documentId?: string
-  id: string
+  documentId: string
+  documentCode: string
+  title: string
+  description: string | null
   fileName: string
-  originalName: string
-  fileType: string
   fileSize: number
-  filePath: string
+  mimeType: string
+  fileType?: string | null
+  minioPath: string
   minioUrl?: string | null
-  previewUrl?: string | null
-  academicYear: string
-  department: string
-  description?: string | null
+  fileExtension: string
   uploadedBy: string
+  uploadedByName: string | null
+  department: string
+  academicYear: string
+  departmentUnitId: string | null
+  academicYearId: string | null
+  masDepartmentUnit: {
+    departmentUnitId: string
+    code: string
+    name: string
+    nameEn: string | null
+  } | null
+  masAcademicYear: {
+    academicYearId: string
+    year: string
+    description: string | null
+  } | null
+  status: 'ACTIVE' | 'ARCHIVED' | 'DELETED'
+  confidentiality: 'PUBLIC' | 'INTERNAL' | 'CONFIDENTIAL' | 'SECRET'
+  viewCount: number
+  downloadCount: number
+  currentVersion: number
   editCount: number
-  createdAt: Date
-  updatedAt: Date
+  isActive: boolean
+  uploadedAt: string
+  updatedAt: string
+  createdBy: string | null
+  updatedBy: string | null
 }
 
+/**
+ * DocumentWithRelations extends Document with optional nested data.
+ * Used when the API returns related user/version info.
+ */
 export interface DocumentWithRelations extends Document {
   user?: User
   versions?: DocumentVersion[]
 }
+
+// Computed helpers for backward compatibility
+export const getDocumentId = (doc: Document): string => doc.documentId
+export const getDocumentDisplayName = (doc: Document): string => doc.title || doc.fileName
+export const getDocumentOriginalName = (doc: Document): string => doc.fileName
+export const getDocumentFileType = (doc: Document): string => doc.mimeType || doc.fileExtension || ''
+export const getDocumentCreatedAt = (doc: Document): string => doc.uploadedAt
+export const getDocumentUpdatedAt = (doc: Document): string => doc.updatedAt
 
 export interface DocumentVersion {
   id: string

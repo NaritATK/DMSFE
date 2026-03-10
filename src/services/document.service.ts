@@ -164,15 +164,21 @@ const getUploadErrorMessage = (error: unknown): { message: string; requestId?: s
 }
 
 export const getDepartmentUnits = async (): Promise<DepartmentUnit[]> => {
-  const response = await apiClient.get<DepartmentUnit[]>('/documents/department-units')
+  const response = await apiClient.get<DepartmentUnit[] | { data: DepartmentUnit[] }>('/documents/department-units')
 
-  return response.data
+  // Normalize: BE may return { success, data: [...] } or just [...]
+  const raw = response.data
+
+  return Array.isArray(raw) ? raw : (raw as { data: DepartmentUnit[] }).data || []
 }
 
 export const getAcademicYears = async (): Promise<AcademicYear[]> => {
-  const response = await apiClient.get<AcademicYear[]>('/documents/academic-years')
+  const response = await apiClient.get<AcademicYear[] | { data: AcademicYear[] }>('/documents/academic-years')
 
-  return response.data
+  // Normalize: BE may return { success, data: [...] } or just [...]
+  const raw = response.data
+
+  return Array.isArray(raw) ? raw : (raw as { data: AcademicYear[] }).data || []
 }
 
 export const getDocuments = async (params?: {
